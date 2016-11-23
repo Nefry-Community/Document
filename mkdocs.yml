@@ -1,0 +1,48 @@
+
+# Project information
+site_name: 'Nefry'
+site_description: 'A short description of my project'
+site_author: 'Nefry-community'
+site_url: 'https://my-github-handle.github.io/my-project'
+
+extra_css: ['extra.css']
+
+# Repository
+repo_name: 'GitHub'
+repo_url: 'https://github.com/Nefry-Community/Arduino'
+
+# Copyright
+copyright: 'Copyright (c) 2016 Nefry Community'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+# Options
+extra:
+  version: '2.2.2'
+  logo: 'img/icon.jpeg'
+  palette:
+    primary: 'Orange'
+    accent: 'Purple'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'wamisnet'
+    twitter: 'wamisnet'
+
+# Google Analytics
+google_analytics:
+  - 'UA-62256925-4'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
