@@ -1,9 +1,9 @@
 
 # Project information
 site_name: 'Nefry'
-site_description: 'A short description of my project'
+site_description: 'フリスクサイズのIoTデバイス'
 site_author: 'Nefry-community'
-site_url: 'https://my-github-handle.github.io/my-project'
+site_url: 'https://nefry.studio/'
 
 extra_css: ['extra.css']
 
