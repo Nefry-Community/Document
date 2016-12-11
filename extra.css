@@ -1,6 +1,9 @@
 ﻿@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
  
-body {
+body{
      font-family: 'Noto Sans Japanese', sans-serif;
      font-size: 100%;
+}
+div.gist-it-gist .gist-file .gist-data pre, .gister-gist .gist-file .gist-data pre,.gist-meta {
+	font-family:'Roboto Mono';
 }
