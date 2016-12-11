@@ -61,3 +61,4 @@ Nefryのドキュメントとなっております。[https://wamisnet.github.io
 #更新情報
 
 2016/11/22：ページ作成
+2016/12/11：CocoaBitなど追加 

@@ -3,6 +3,7 @@
 site_name: 'Nefry'
 site_description: 'フリスクサイズのIoTデバイス'
 site_author: 'Nefry-community'
+site_dir: 'site/'
 site_url: 'https://nefry.studio/'
 
 extra_css: ['extra.css']
