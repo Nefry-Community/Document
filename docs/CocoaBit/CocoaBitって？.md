@@ -17,3 +17,12 @@ CocoaBitsはArduinoIDEでプログラミングすることもできるため、�
 |入力モード|アナログ、デジタル|
 |出力モード|pwm(アナログ）、デジタル|
 |使用モジュール|ESP-wroom-02|
+
+## CocoaBit説明記事
+
+CocoaBitの生みの親 ワンフットシーバス 田中さんの記事  
+[http://www.1ft-seabass.jp/memo/tag/cocoabit/](http://www.1ft-seabass.jp/memo/tag/cocoabit/)
+
+CocoaBitの紹介記事  
+[電子回路を簡単に学べるlittleBitsをインターネットに繋げよう！「CocoaBit」を開発中](https://dotstud.io/blog/cocoabit-littlebits-milkcocoa-nefry/)
+![[電子回路を簡単に学べるlittleBitsをインターネットに繋げよう！「CocoaBit」を開発中](https://dotstud.io/blog/cocoabit-littlebits-milkcocoa-nefry/)](../img/01_cocoabit.png)
