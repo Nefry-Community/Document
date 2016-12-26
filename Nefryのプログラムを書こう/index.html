@@ -150,7 +150,7 @@
         <strong>
           Nefry
           <span class="version">
-            2.2.2
+            2.3.0
           </span>
         </strong>
         
@@ -166,7 +166,7 @@
         <ul class="repo">
           <li class="repo-download">
             
-            <a href="https://github.com/Nefry-Community/Arduino/archive/2.2.2.zip" target="_blank" title="Download" data-action="download">
+            <a href="https://github.com/Nefry-Community/Arduino/archive/2.3.0.zip" target="_blank" title="Download" data-action="download">
               <i class="icon icon-download"></i> Download
             </a>
           </li>
@@ -262,6 +262,78 @@
           
             
   <li>
+    <span class="section">NefryLibrary</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Console関連関数" href="../NefryLibrary/Console%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      Console関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Module関連関数" href="../NefryLibrary/Module%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      Module関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Nefryの便利な関数" href="../NefryLibrary/Nefry%E3%81%AE%E4%BE%BF%E5%88%A9%E3%81%AA%E9%96%A2%E6%95%B0/">
+      Nefryの便利な関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Nefryライブラリとは？" href="../NefryLibrary/Nefry%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%A8%E3%81%AF%EF%BC%9F/">
+      Nefryライブラリとは？
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="WiFi関連関数" href="../NefryLibrary/WiFi%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      WiFi関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="アップデート関連関数" href="../NefryLibrary/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      アップデート関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="ハードウエア関連関数" href="../NefryLibrary/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%82%A2%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      ハードウエア関連関数
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
     <span class="section">Q&A</span>
     <ul>
       
@@ -336,10 +408,10 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="_1">実際にコードを書いてみる<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+          <h1 id="_1">実際にコードを書いてみる</h1>
 <p>ここまでの作業お疲れ様でした。
 ここからは実際にプログラムを書いてNefryを操っていきます。</p>
-<h2 id="arduino">Arduinoのプログラムって？<a class="headerlink" href="#arduino" title="Permanent link">#</a></h2>
+<h2 id="arduino">Arduinoのプログラムって？</h2>
 <p>NefryのプログラムはArduinoのプログラムと同じようにかけます。</p>
 <p>ArduinoIDEが起動するとプログラムを入力するところに初めからこのようなプログラムが書いてあります。</p>
 <div class="code"><pre><span></span><span class="kt">void</span> <span class="nf">setup</span><span class="p">(){</span>
@@ -368,7 +440,7 @@
 例えば、LEDの点滅やセンサーデータの取得などを入力します。</p>
 <p>Nefryではこのsetupとloopをうまく活用してプログラムを書いていきます。
 <img alt="" src="https://wamisnet.github.io/pic/ren/pic025.png" /></p>
-<h2 id="led">LEDを使ってみる<a class="headerlink" href="#led" title="Permanent link">#</a></h2>
+<h2 id="led">LEDを使ってみる</h2>
 <p>それでは、実際にNefryで動くプログラムを書いてみようと思います。</p>
 <p>今回は、NefryについているフルカラーのLEDをランダムに光らせてみようと思います。
 前もって、ArduinoIDEに書いてある文をすべて消しておいてください。</p>
@@ -409,7 +481,7 @@ Nefryに書き込むプログラムがその指定した場所に保存されま
 よくある間違いとして、<code>;</code>がなかったり<code>()</code>が全角だったりするので見直してみてください。  </p>
 <p>これでプログラムの準備は整いましたので次にNefryにプログラムを書き込んで実行します。  </p>
 <p><img alt="" src="https://wamisnet.github.io/pic/ren/pic027.png" /></p>
-<h2 id="nefry">Nefryに書き込む<a class="headerlink" href="#nefry" title="Permanent link">#</a></h2>
+<h2 id="nefry">Nefryに書き込む</h2>
 <p>ついにNefryにプログラムを書き込みます。</p>
 <p>Nefryの便利なところを解説しつつ、プログラムを書き込んでいく流れを解説していきます。</p>
 <p>NefryをモバイルバッテリーやPCのUSB端子に接続してください。
@@ -454,7 +526,7 @@ NefryがWiFiの信号を出しているので、そのWiFiに接続します。
 <strong>setup WiFi</strong>といってNefryが接続するWiFiを設定することができるページです。
 設定すれば、インターネットに接続してMilkcocoaやIFTTTといったwebサービスと接続することができるようになります。<br />
 <img alt="" src="https://wamisnet.github.io/pic/ren/pic039.png" />  </p>
-<h2 id="_2">実際に動かしてみる<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<h2 id="_2">実際に動かしてみる</h2>
 <p>先ほどのプログラムを書き込むとLEDがランダムに光るデモです。<br />
 <img alt="" src="https://wamisnet.github.io/pic/ren/led.gif" /></p>
           <aside class="copyright" role="note">

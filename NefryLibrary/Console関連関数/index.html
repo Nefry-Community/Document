@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>Console関連関数 - Nefry</title>
+      
+      
+      
+        <link rel="canonical" href="https://nefry.studio/NefryLibrary/Console関連関数/">
+      
+      
+        <meta name="author" content="Nefry-community">
+      
+    
+    <meta property="og:url" content="https://nefry.studio/NefryLibrary/Console関連関数/">
+    <meta property="og:title" content="Nefry">
+    <meta property="og:image" content="https://nefry.studio/NefryLibrary/Console関連関数//../../img/icon.jpeg">
+    <meta name="apple-mobile-web-app-title" content="Nefry">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+      <link rel="apple-touch-icon" href="../../img/icon.jpeg">
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/favicon-e565ddfa3b.ico">
+    <link rel="icon" type="image/x-icon" href="../../assets/images/favicon-e565ddfa3b.ico">
+    <style>
+      @font-face {
+      	font-family: 'Icon';
+      	src: url('../../assets/fonts/icon.eot?52m981');
+      	src: url('../../assets/fonts/icon.eot?#iefix52m981')
+               format('embedded-opentype'),
+      		   url('../../assets/fonts/icon.woff?52m981')
+               format('woff'),
+      		   url('../../assets/fonts/icon.ttf?52m981')
+               format('truetype'),
+      		   url('../../assets/fonts/icon.svg?52m981#icon')
+               format('svg');
+      	font-weight: normal;
+      	font-style: normal;
+      }
+    </style>
+    <link rel="stylesheet" href="../../assets/stylesheets/application-a422ff04cc.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes-05ab2406df.css">
+    
+    
+      
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono">
+      <style>
+        body, input {
+          font-family: 'Roboto', Helvetica, Arial, sans-serif;
+        }
+        pre, code {
+          font-family: 'Roboto Mono', 'Courier New', 'Courier', monospace;
+        }
+      </style>
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script src="../../assets/javascripts/modernizr-4ab42b99fd.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-orange palette-accent-purple">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                NefryLibrary <i class="icon icon-link"></i>
+              
+            
+          </span>
+        
+        Console関連関数
+      </div>
+    </div>
+    
+      
+      <div class="button button-twitter" role="button" aria-label="Twitter">
+        <a href="https://twitter.com/wamisnet" title="@wamisnet on Twitter" target="_blank" class="toggle-button icon icon-twitter"></a>
+      </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/wamisnet" title="@wamisnet on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <a href="https://github.com/Nefry-Community/Arduino" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="../../img/icon.jpeg">
+        </div>
+      
+      <div class="name">
+        <strong>
+          Nefry
+          <span class="version">
+            2.3.0
+          </span>
+        </strong>
+        
+          <br>
+          Nefry-Community/Arduino
+        
+      </div>
+    </div>
+  </a>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            
+            <a href="https://github.com/Nefry-Community/Arduino/archive/2.3.0.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/Nefry-Community/Arduino/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="ArduinoIDEの環境を整えよう" href="../../ArduinoIDE%E3%81%AE%E7%92%B0%E5%A2%83%E3%82%92%E6%95%B4%E3%81%88%E3%82%88%E3%81%86/">
+      ArduinoIDEの環境を整えよう
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Nefryのプログラムを書こう" href="../../Nefry%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E6%9B%B8%E3%81%93%E3%81%86/">
+      Nefryのプログラムを書こう
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">CocoaBit</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="CocoaBitって？" href="../../CocoaBit/CocoaBit%E3%81%A3%E3%81%A6%EF%BC%9F/">
+      CocoaBitって？
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">NefryLibrary</span>
+    <ul>
+      
+        
+  <li>
+    <a class="current" title="Console関連関数" href="./">
+      Console関連関数
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="print" href="#print">
+                print
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="println" href="#println">
+                println
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="available" href="#available">
+                available
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="read" href="#read">
+                read
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Module関連関数" href="../Module%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      Module関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Nefryの便利な関数" href="../Nefry%E3%81%AE%E4%BE%BF%E5%88%A9%E3%81%AA%E9%96%A2%E6%95%B0/">
+      Nefryの便利な関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Nefryライブラリとは？" href="../Nefry%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%81%A8%E3%81%AF%EF%BC%9F/">
+      Nefryライブラリとは？
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="WiFi関連関数" href="../WiFi%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      WiFi関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="アップデート関連関数" href="../%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      アップデート関連関数
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="ハードウエア関連関数" href="../%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A8%E3%82%A2%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/">
+      ハードウエア関連関数
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Q&A</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="書き込みができない" href="../../Q%26A/%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84/">
+      書き込みができない
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Program</span>
+    <ul>
+      
+        
+  <li>
+    <span class="section">Grove</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Groveタッチセンサ" href="../../program/Grove/Grove%E3%82%BF%E3%83%83%E3%83%81%E3%82%BB%E3%83%B3%E3%82%B5/">
+      Groveタッチセンサ
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+        
+          <hr>
+          <span class="section">The author</span>
+          <ul>
+            
+              
+              <li>
+                <a href="https://twitter.com/wamisnet" target="_blank" title="@wamisnet on Twitter">
+                  @wamisnet on Twitter
+                </a>
+              </li>
+            
+            
+              
+              <li>
+                <a href="https://github.com/wamisnet" target="_blank" title="@wamisnet on GitHub">
+                  @wamisnet on GitHub
+                </a>
+              </li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="console">Console関連関数</h1>
+<p>Consoleに関連する関数をまとめてみました。<br />
+Nefryのwebconsoleとserialに文字を表示します。Serialはデフォルトでは115200bpsで通信します。</p>
+<h2 id="print">print</h2>
+<p><img alt="2.3.0u" src="../pic/2.3.0u.png" />  </p>
+<p>Nefryのwebconsoleとserialに文字を表示します。<strong>改行なし</strong>です。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">引数</td>
+<td align="center">float,double,char,int,long,unsigned char,unsigned int,unsigned long,String</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">返り値</td>
+<td align="center">void</td>
+<td align="center">なし</td>
+</tr>
+<tr>
+<td align="center">具体例</td>
+<td align="center">Nefry.print("NefryWorld");//NefryWorldと表示されます。</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="println">println</h2>
+<p><img alt="2.3.0u" src="../pic/2.3.0u.png" />  </p>
+<p>Nefryのwebconsoleとserialに文字を表示します。<strong>改行あり</strong>です。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">引数</td>
+<td align="center">float,double,char,int,long,unsigned char,unsigned int,unsigned long,String</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">返り値</td>
+<td align="center">void</td>
+<td align="center">なし</td>
+</tr>
+<tr>
+<td align="center">具体例</td>
+<td align="center">Nefry.print("NefryWorld");//NefryWorldと表示されます。</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="available">available</h2>
+<p><img alt="2.3.0u" src="../pic/2.3.0u.png" />  </p>
+<p>Nefryのwebconsoleで入力された文字数を返します。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">引数</td>
+<td align="center">void</td>
+<td align="center">なし</td>
+</tr>
+<tr>
+<td align="center">返り値</td>
+<td align="center">int</td>
+<td align="center">入力された文字数</td>
+</tr>
+<tr>
+<td align="center">具体例</td>
+<td align="center">Nefry.available();</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="read">read</h2>
+<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
+Nefryのwebconsoleで入力された文字を返します。</p>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">引数</td>
+<td align="center">void</td>
+<td align="center">なし</td>
+</tr>
+<tr>
+<td align="center">返り値</td>
+<td align="center">String</td>
+<td align="center">入力された文字</td>
+</tr>
+<tr>
+<td align="center">具体例</td>
+<td align="center">Nefry.read();</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+          <aside class="copyright" role="note">
+            
+              Copyright (c) 2016 Nefry Community &ndash;
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../../CocoaBit/CocoaBit%E3%81%A3%E3%81%A6%EF%BC%9F/" title="CocoaBitって？">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-back"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                CocoaBitって？
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+        <a href="../Module%E9%96%A2%E9%80%A3%E9%96%A2%E6%95%B0/" title="Module関連関数">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                Module関連関数
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'Nefry-Community/Arduino';
+    </script>
+    <script src="../../assets/javascripts/application-997097ee0c.js"></script>
+    
+    
+      <script>
+        (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+          []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+          m.parentNode.insertBefore(a,m)
+        })(window, document,
+          'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        /* General initialization */
+        ga('create', 'UA-62256925-4', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+        /* Track outbound links */
+        var buttons = document.querySelectorAll('a');
+        Array.prototype.map.call(buttons, function(item) {
+          if (item.host != document.location.host) {
+            item.addEventListener('click', function() {
+              var action = item.getAttribute('data-action') || 'follow';
+              ga('send', 'event', 'outbound', action, item.href);
+            });
+          }
+        });
+        /* Register handler to log search on blur */
+        var query = document.querySelector('.query');
+        query.addEventListener('blur', function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga('send', 'pageview', path + '?q=' + this.value);
+          }
+        });
+      </script>
+    
+  </body>
+</html>
