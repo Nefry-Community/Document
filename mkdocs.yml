@@ -21,7 +21,7 @@ theme: 'material'
 
 # Options
 extra:
-  version: '2.2.2'
+  version: '2.3.0'
   logo: 'img/icon.jpeg'
   palette:
     primary: 'Orange'
@@ -45,5 +45,4 @@ google_analytics:
 markdown_extensions:
   - codehilite(css_class=code)
   - admonition
-  - toc:
-      permalink: '#'
+  - toc

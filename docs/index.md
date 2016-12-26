@@ -58,7 +58,8 @@ Nefryのドキュメントとなっております。[https://wamisnet.github.io
 ![回路図](img/nefrykr.png)  
 配線図  
 ![配線図](img/nefrycr.png)  
-#更新情報
+##更新情報
 
-2016/11/22：ページ作成
-2016/12/11：CocoaBitなど追加 
+2016/11/22：ページ作成  
+2016/12/11：CocoaBitなど追加   
+2016/12/25：Nefryライブラリ2.3.0の関数ページを追加
