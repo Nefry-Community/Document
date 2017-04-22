@@ -1,0 +1,122 @@
+{
+  "packages": [
+    {
+      "name": "Nefry",
+      "maintainer": "Nefry Community",
+      "websiteURL": "",
+      "email": "wamiwami@live.jp",
+      "platforms": [
+          {
+          "name": "Nefry",
+          "architecture": "esp32",
+          "version": "0.6.1",
+          "category": "ESP32",
+          "url": "https://nefry.studio/nefryicing0.6.1.zip",
+          "archiveFileName": "nefryicing0.6.1.zip",
+          "checksum": "SHA-256:864CFC1EE8BF28B0EB8B6EFEAA786E0730BD2912DF0D8D81D5B53B033BDAD000",
+          "size": "26802365",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry",
+              "name": "esptool",
+              "version": "9072736"
+            }
+          ]
+        },
+        {
+          "name": "Nefry",
+          "architecture": "esp32",
+          "version": "0.6.0",
+          "category": "ESP32",
+          "url": "https://nefry.studio/nefryicing0.6.0.zip",
+          "archiveFileName": "nefryicing0.6.0.zip",
+          "checksum": "SHA-256:69E414EEA6B5AA3C04225B37D3A197F23E56621B3A0AB25960BE984F16DE71C7",
+          "size": "26798570",
+          "boards": [
+            {
+              "name": "Nefry Icing"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry",
+              "name": "esptool",
+              "version": "9072736"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "name": "xtensa-esp32-elf-gcc",
+          "version": "1.22.0-61-gab8375a-5.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-win32-1.22.0-61-gab8375a-5.2.0-2.zip",
+              "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-61-gab8375a-5.2.0-2.zip",
+              "checksum": "SHA-256:C00DBDAB8E8ACC273D4AA319A74F7BB1D9496C843159823201D685359174168F",
+              "size": "76346909"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-osx-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "checksum": "SHA-256:89A9A6084EC032DDCD4BDAE37B428E533ED5FD0C0AB6B66DDF703E4B3F83D6E4",
+              "size": "40481812"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux64-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "checksum": "SHA-256:B74333FD7F622F035FEE7C4E0CA57C3E2CCB2515DE5D901F33E87E79CDF0D4F9",
+              "size": "37674568"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux32-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-61-gab8375a-5.2.0.tar.gz",
+              "checksum": "SHA-256:DBB342B7C377A7C3A1FCCCC60FA1193332D0C37E6A90C5075D3471C13C9E94AD",
+              "size": "41032647"
+            }
+          ]
+        },
+        {
+          "name": "esptool",
+          "version": "9072736",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/esptool-9072736-windows.zip",
+              "archiveFileName": "esptool-9072736-windows.zip",
+              "checksum": "SHA-256:A9905C0A7438BC23A9B2B2C35B7810FE34A6A087F430DEE5B0C67A338BAFF32C",
+              "size": "3390483"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/esptool-9072736-macos.tar.gz",
+              "archiveFileName": "esptool-9072736-macos.tar.gz",
+              "checksum": "SHA-256:55A1AC2F84664E000D7406A183B947052206D8A6EC130648361EB21803C85E96",
+              "size": "3805717"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
