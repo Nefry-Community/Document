@@ -9,6 +9,33 @@
           {
           "name": "Nefry",
           "architecture": "esp32",
+          "version": "0.7.1",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing0.7.1.zip",
+          "archiveFileName": "nefryicing0.7.1.zip",
+          "checksum": "SHA-256:E7BC85D69451E121558F0844890652671F244D5FB65D01DE4BA6CDD0B042C11F",
+          "size": "28069797",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry",
+              "name": "esptool32",
+              "version": "96698a3"
+            }
+          ]
+        },
+        {
+          "name": "Nefry",
+          "architecture": "esp32",
           "version": "0.6.1",
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing0.6.1.zip",
@@ -113,6 +140,26 @@
               "archiveFileName": "esptool-9072736-macos.tar.gz",
               "checksum": "SHA-256:55A1AC2F84664E000D7406A183B947052206D8A6EC130648361EB21803C85E96",
               "size": "3805717"
+            }
+          ]
+        },
+        {
+          "name": "esptool32",
+          "version": "96698a3",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/esptool-96698a3-windows.zip",
+              "archiveFileName": "esptool-96698a3-windows.zip",
+              "checksum": "SHA-256:1A826E8C74A952F2BCDE0E131AB3E8E897488F0BA4BD826AA584FA2E8ABF238F",
+              "size": "3391147"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/esptool-96698a3-macos.tar.gz",
+              "archiveFileName": "esptool-96698a3-macos.tar.gz",
+              "checksum": "SHA-256:A816044102F06738A64A8C0CCCAAD95D0B5F0BAACC95390E3AECD299039F46FE",
+              "size": "3806849"
             }
           ]
         }
