@@ -1,13 +1,40 @@
 {
   "packages": [
     {
-      "name": "Nefry",
+      "name": "Nefry(ESP32)",
       "maintainer": "Nefry Community",
       "websiteURL": "",
       "email": "wamiwami@live.jp",
       "platforms": [
-          {
-          "name": "Nefry",
+        {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
+          "version": "0.7.2",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing0.7.2.zip",
+          "archiveFileName": "nefryicing0.7.2.zip",
+          "checksum": "SHA-256:D2465302B3F0CA43977640FF65DFF157AF861E8E971BEBEAE95530706A29A4CB",
+          "size": "28069829",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "9072736"
+            }
+          ]
+        },
+        {
+          "name": "Nefry(ESP32)",
           "architecture": "esp32",
           "version": "0.7.1",
           "category": "ESP32",
@@ -22,19 +49,19 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "Nefry",
+              "packager": "Nefry(ESP32)",
               "name": "xtensa-esp32-elf-gcc",
               "version": "1.22.0-61-gab8375a-5.2.0"
             },
             {
-              "packager": "Nefry",
-              "name": "esptool32",
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
               "version": "96698a3"
             }
           ]
         },
         {
-          "name": "Nefry",
+          "name": "Nefry(ESP32)",
           "architecture": "esp32",
           "version": "0.6.1",
           "category": "ESP32",
@@ -49,19 +76,19 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "Nefry",
+              "packager": "Nefry(ESP32)",
               "name": "xtensa-esp32-elf-gcc",
               "version": "1.22.0-61-gab8375a-5.2.0"
             },
             {
-              "packager": "Nefry",
+              "packager": "Nefry(ESP32)",
               "name": "esptool",
               "version": "9072736"
             }
           ]
         },
         {
-          "name": "Nefry",
+          "name": "Nefry(ESP32)",
           "architecture": "esp32",
           "version": "0.6.0",
           "category": "ESP32",
@@ -76,12 +103,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "Nefry",
+              "packager": "Nefry(ESP32)",
               "name": "xtensa-esp32-elf-gcc",
               "version": "1.22.0-61-gab8375a-5.2.0"
             },
             {
-              "packager": "Nefry",
+              "packager": "Nefry(ESP32)",
               "name": "esptool",
               "version": "9072736"
             }
@@ -144,7 +171,7 @@
           ]
         },
         {
-          "name": "esptool32",
+          "name": "esptool",
           "version": "96698a3",
           "systems": [
             {
