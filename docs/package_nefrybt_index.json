@@ -6,6 +6,33 @@
       "websiteURL": "",
       "email": "wamiwami@live.jp",
       "platforms": [
+       {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
+          "version": "0.9.4",
+          "category": "ESP32",
+          "url": "https://wamisnet.github.io/driver/nefryicing0.9.4.zip",
+          "archiveFileName": "nefryicing0.9.4.zip",
+          "checksum": "SHA-256:9F79D839E979B21777ACB29E50864C7708A9E4CA0DC96A6755197EDC1D9E2C92",
+          "size": "29337426",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "9072736"
+            }
+          ]
+        },
         {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
