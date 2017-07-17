@@ -7,7 +7,10 @@ NefryのModule Setup関連の関数をまとめてみました。Nefryに必要�
 ##文字列管理
 文字列は0-2の欄は128文字まで、3-7の欄は64文字までの入力ができます。
 ## getConfStr
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
+
+###NefryBT関数 : getStoreStr
 
 NefryのModule Setupで入力された文字列を取得できます。  
 入力された文字列をプログラム内で使う際にこの関数が便利です。  
@@ -21,6 +24,9 @@ NefryのModule Setupで入力された文字列を取得できます。
 
 ## setConfHtmlStr
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
+
+###NefryBT関数 : setStoreTitleStr
 
 NefryのModule Setupで指定された欄を表示します。**これを呼ばないとModule Setupに表示されません。**
 説明を書くことができるので、上手くつかってください。
@@ -33,7 +39,10 @@ NefryのModule Setupで指定された欄を表示します。**これを呼ば�
 |具体例||Nefry.setConfHtmlStr(”Nefry ID”,0);|
 
 ## setConfStr
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
+
+###NefryBT関数 : setStoreStr
 
 NefryのModule Setupに文字列を代入することができます。  
 デフォルト値として始めから文字を入れておきたいときにこの関数が便利です。  
@@ -50,7 +59,9 @@ NefryのModule Setupに文字列を代入することができます。
 -32,768 ～ 32,767の範囲で数値を扱うことができます。
 ## getConfValue
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
+###NefryBT関数 : getStoreValue
 NefryのModule Setupで入力された数値を取得できます。  
 入力された数値をプログラム内で使う際にこの関数が便利です。  
 入力欄は初期状態では表示されないので```setConfHtmlValue```関数を使って表示させるようにしてください。
@@ -63,7 +74,9 @@ NefryのModule Setupで入力された数値を取得できます。
 
 ## setConfHtmlValue
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
+###NefryBT関数 : setStoreTitleValue
 NefryのModule Setupで指定された欄を表示します。**これを呼ばないとModule Setupに表示されません。**
 説明を書くことができるので、上手くつかってください。
 
@@ -76,7 +89,9 @@ NefryのModule Setupで指定された欄を表示します。**これを呼ば�
 
 ## setConfValue
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
+###NefryBT関数 : setStoreValue
 NefryのModule Setupに文字列を代入することができます。  
 デフォルト値として始めから文字を入れておきたいときにこの関数が便利です。  
 入力欄は初期状態では表示されないので```setConfHtmlValue```関数を使って表示させるようにしてください。

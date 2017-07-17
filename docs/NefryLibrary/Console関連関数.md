@@ -4,7 +4,8 @@ Consoleに関連する関数をまとめてみました。
 Nefryのwebconsoleとserialに文字を表示します。Serialはデフォルトでは115200bpsで通信します。
 
 ## print
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのwebconsoleとserialに文字を表示します。**改行なし**です。
 
@@ -16,7 +17,8 @@ Nefryのwebconsoleとserialに文字を表示します。**改行なし**です�
 
 
 ## println
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのwebconsoleとserialに文字を表示します。**改行あり**です。
 
@@ -27,7 +29,8 @@ Nefryのwebconsoleとserialに文字を表示します。**改行あり**です�
 |具体例||Nefry.print("NefryWorld");//NefryWorldと表示されます。|
 
 ##available
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのwebconsoleで入力された文字数を返します。
 
@@ -38,7 +41,9 @@ Nefryのwebconsoleで入力された文字数を返します。
 |具体例||Nefry.available();|
 
 ##read
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
+
 Nefryのwebconsoleで入力された文字を返します。
 
 ||||

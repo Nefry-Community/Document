@@ -3,7 +3,8 @@
 Nefryの便利な関数をまとめてみました。
 
 ## ndelay
-![2.3.0u](pic/2.3.0u.png)  
+![2.3.0u](pic/2.3.0u.png)
+![nefrybt](pic/nefrybt.jpg)
 
 delayではすべての処理が止まってしまいますがこちらを選ぶことで停止時間にNefryのWeb表示などの様々な機能を継続することができます。
 基本的に500ミリ秒以上の待ち時間になる場合はこちらを選んでください。
@@ -16,6 +17,7 @@ delayではすべての処理が止まってしまいますがこちらを選ぶ
 
 ## reset
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryをリセットし、プログラムを初めからやり直します。
 
@@ -28,6 +30,7 @@ Nefryをリセットし、プログラムを初めからやり直します。
 
 ## sleep
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryを省電力モードのスリープモードにします。スリープモードに入ると処理ができません。  
 スリープが終わった後はプログラムを初めからやり直します。  
@@ -42,6 +45,7 @@ Nefryを省電力モードのスリープモードにします。スリープモ
 
 ## getWebServer
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 ESP8266WebServerを扱うことができます。ユーザ側でWebページを追加することができます。
 Nefryのメインページにそのリンクを貼りたいときは```setIndexLink```関数を使ってください。
@@ -54,6 +58,7 @@ Nefryのメインページにそのリンクを貼りたいときは```setIndexL
 
 ## setIndexLink
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのメインページにリンクを貼ることができます。
 
@@ -67,6 +72,7 @@ Nefryのメインページにリンクを貼ることができます。
 
 ## setProgramName
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのトップページで表示されるプログラム名を設定できます。
 
@@ -78,6 +84,7 @@ Nefryのトップページで表示されるプログラム名を設定できま
 
 ## getProgramName
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryのトップページで表示されるプログラム名を取得することができます。
 
@@ -89,6 +96,7 @@ Nefryのトップページで表示されるプログラム名を取得するこ
 
 ## getVersion
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 Nefryライブラリのバージョンを取得することができます。
 
@@ -101,6 +109,7 @@ Nefryライブラリのバージョンを取得することができます。
 
 ## getModuleName
 ![2.3.0u](pic/2.3.0u.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 NefryのModule名を取得することができます。
 

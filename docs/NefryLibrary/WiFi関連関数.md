@@ -5,6 +5,7 @@ NefryのWiFi関連の関数をまとめてみました。WiFiに必要な設定�
 
 ## addWifi
 ![2.3.0](pic/2.3.0.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 WiFiの設定を追加することができます。5つまでのWiFiを保存することができます。  
 5つを超えた場合最も古いデータから削除されます。
@@ -18,6 +19,7 @@ WiFiの設定を追加することができます。5つまでのWiFiを保存�
 
 ## getlistWifi
 ![2.3.0](pic/2.3.0.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 WiFiの設定を表示することができます。IDとSSIDを表示することができます。  
 
@@ -30,6 +32,7 @@ WiFiの設定を表示することができます。IDとSSIDを表示するこ�
 
 ## deleteWifi
 ![2.3.0](pic/2.3.0.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 WiFiの設定を削除することができます。削除するデータをIDで指定します。  
 getlistWifi関数でIDについて確認することができます。
@@ -66,6 +69,7 @@ WiFiの自動接続をするかどうかを選択できます。
 
 ## setWifiTimeout
 ![2.3.0](pic/2.3.0.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 WiFiの再接続回数の上限を制限します。
 
@@ -77,6 +81,7 @@ WiFiの再接続回数の上限を制限します。
 
 ## setWifiTimeoutClear
 ![2.3.0](pic/2.3.0.png)  
+![nefrybt](pic/nefrybt.jpg)
 
 WiFiの再接続回数のカウントをクリアします。
 
