@@ -6,7 +6,34 @@
       "websiteURL": "",
       "email": "wamiwami@live.jp",
       "platforms": [
-          {
+        {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
+          "version": "1.0.1",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing1.0.1.zip",
+          "archiveFileName": "nefryicing1.0.1.zip",
+          "checksum": "SHA-256:055D9C1FA391D826DC8D47F0E4ABB5DDF08BF009B44E6B48890FF357A015C736",
+          "size": "30402620",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "a420774"
+            }
+          ]
+        },
+        {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
           "version": "1.0.0",
@@ -255,6 +282,26 @@
               "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-61-gab8375a-5.2.0.tar.gz",
               "checksum": "SHA-256:DBB342B7C377A7C3A1FCCCC60FA1193332D0C37E6A90C5075D3471C13C9E94AD",
               "size": "41032647"
+            }
+          ]
+        },
+        {
+          "name": "esptool",
+          "version": "a420774",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/esptool-a420774-windows.zip",
+              "archiveFileName": "esptool-a420774-windows.zip",
+              "checksum": "SHA-256:C9C42170E287E4F3FDA5B097E994A0B67C4EA24383AD336B4F4FAC82B02F6E72",
+              "size": "3393638"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/esptool-a420774-macos.tar.gz",
+              "archiveFileName": "esptool-a420774-macos.tar.gz",
+              "checksum": "SHA-256:31DF992FCF298D85DCEF85436CB9843E9723AF7647FA754A446BEC880B369813",
+              "size": "3809494"
             }
           ]
         },
