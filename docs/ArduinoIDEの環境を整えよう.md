@@ -40,7 +40,8 @@ Windows、Macとも少し画面構成は異なりますが、基本的には同�
 クリックするとこのような画面が出てArduinoIDEの起動準備が始まりますのでしばらくお待ちください。  
 ![](https://wamisnet.github.io/pic/ren/pic013.png)  
 このような画面が表示されると準備完了です。
-この画面でNefryで動かすプログラムを書いていきます。
+この画面でNefryで動かすプログラムを書いていきます。 
+  
 ![](https://wamisnet.github.io/pic/ren/pic015.png)  
 これでArduinoIDEのインストール完了です。お疲れ様でした。  
 次はNefryボードのインストールをしていきます。
@@ -52,8 +53,16 @@ ArduinoIDEのファイル内にある環境設定の項目を開きます。
 ![](https://wamisnet.github.io/pic/ren/pic016.png)  
 環境設定を開いて**追加のボードマネージャーのURL** に次のURL を入力します。
 
+###Nefry
+
 ```
-http://wamisnet.github.io/package_nefry_index.json
+http://nefry.studio/package_nefry_index.json
+```
+
+###Nefry BT
+
+```
+http://nefry.studio/package_nefrybt_index.json
 ```
 
 入力が終わったら OK をクリックします。  

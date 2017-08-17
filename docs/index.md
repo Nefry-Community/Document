@@ -5,6 +5,11 @@
 
 また、スマートフォンで使うようなモバイルバッテリーで動くので、場所を選ばずに使えます。
 
+##次期モジュールNefry BTが発売されました！
+![](./img/top-hero_nefry.png)  
+[クラウドファンディング](https://kibidango.com/513)で437%を達成したWi-FiとBLEを搭載したESP32を使ったNefryBTが[dotstudio](https://dotstud.io/shop/nefry-bt-single/)より一般販売されました。
+
+
 !!!link
 	**プログラム共有用にもう一つサイトがあります！[公式サイトはこちら！](https://program.nefry.studio/)**
 
@@ -20,38 +25,30 @@
 
 
 
-
 ##Nefryはどこで購入できるの？
-[dotstudio](https://dotstud.io/projects/nefry-connect-internet/)さんにて発売中！
-
+###Nefry
+- [dotstudio](https://dotstud.io/projects/nefry-connect-internet/)さん
+- [ツクモ](http://shop.tsukumo.co.jp/goods/4589490377268/)さん  
+よりそれぞれ販売中！
+###Nefry BT
+- [dotstudio](https://dotstud.io/shop/nefry-bt-single/)さん  
+より販売中！！
 
 ##Nefryでできること
-LIGブログで記事を連載中です。
-
-###プログラムを書くための環境構築をまとめました！
-![](https://cdn.liginc.co.jp/wp-content/uploads/2016/07/20160728-nefry.png)
-[**さくっと生活を便利にする！FRISKサイズのIoT向けデバイス「Nefry」を使ってみよう【環境構築編】**](https://liginc.co.jp/298161)
-
-
-###Milkcocoaというリアルタイム通信サービスとの連携をまとめました！
-![](https://cdn.liginc.co.jp/wp-content/uploads/2016/06/eyecatch_160608_03_m.png)
-[**NefryとMilkcocoaを連携させて、WebサイトにリアルタイムでPush通知してみる**](http://liginc.co.jp/282918)
-
-
-###簡単に自分好みのサービスをつくれるIFTTTとNefryを繋ぐ話をまとめました！
-![http://liginc.co.jp/263899](https://cdn.liginc.co.jp/wp-content/uploads/2016/04/eyecatch181-2-1310x874.png)
-[**Webサービス同士を連携できる「IFTTT」と自作IoTデバイスを繋いで生活を便利にしてみた**](http://liginc.co.jp/263899)
-
-
-##Nefryをプログラムするときに便利なライブラリ関数
-Qiitaにてまとめておりますので、ご覧ください。[Nefryライブラリ関数まとめ](http://qiita.com/wamisnet/private/e44812eb6d6fded7af26)
+**[こちらのページに移動しました](./Nefryでできること+作品集/)**
 
 ##ドキュメント
-Nefryのドキュメントとなっております。[https://wamisnet.github.io/Nefry_manual.pdf](https://wamisnet.github.io/Nefry_manual.pdf)
+Nefryのドキュメントとなっております。  
+[Nefry説明書](https://nefrt.studio/Nefry_manual.pdf)  
+[NefryBT説明書](https://drive.google.com/file/d/0B_mvDQF8yaQRLVprUHl4WTFLWVE/view)  
+そのほかのドキュメントに関してはdotstudioにまとめてあります。  
+[Nefryドキュメント](https://dotstud.io/docs/nefry/)  
+[NefryBTドキュメント](https://dotstud.io/docs/nefrybt/)  
 
 ##ケースの組み立て方
 ケースのAIデータもありますので、カスタマイズしたオリジナルケースを作ることも可能です。
-組み立て方のコツを書いてありますのでぜひご覧ください。[http://fabble.cc/wamisnet/nefry-case](http://fabble.cc/wamisnet/nefry-case)
+組み立て方のコツを書いてありますのでぜひご覧ください。  
+[http://fabble.cc/wamisnet/nefry-case](http://fabble.cc/wamisnet/nefry-case)
 
 ##ピンアサイン
 ![Nefry_Pin.png](https://qiita-image-store.s3.amazonaws.com/0/97208/ba4a18a9-c793-bca0-5d3a-da47eea8ef71.png)
@@ -65,4 +62,5 @@ Nefryのドキュメントとなっております。[https://wamisnet.github.io
 
 2016/11/22：ページ作成  
 2016/12/11：CocoaBitなど追加   
-2016/12/25：Nefryライブラリ2.3.0の関数ページを追加
+2016/12/25：Nefryライブラリ2.3.0の関数ページを追加  
+2017/08/18：NefryBT情報など全体的な内容修正
