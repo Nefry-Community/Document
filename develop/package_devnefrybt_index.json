@@ -13,8 +13,8 @@
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.0.4.zip",
           "archiveFileName": "nefryicing1.0.4.zip",
-          "checksum": "SHA-256:BE0AB692F497B61DD0991FC8B13CAA7AABE874CCED1806911B4273ADCEDCAACA",
-          "size": "29994831",
+          "checksum": "SHA-256:FFC60F59D3A5CCD46C62C43E25FA4237119B87372CA52615E669A58FB69B6DE9",
+          "size": "29994113",
           "boards": [
             {
               "name": "Nefry BT"
