@@ -9,6 +9,33 @@
         {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
+          "version": "1.0.6",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing1.0.6.zip",
+          "archiveFileName": "nefryicing1.0.6.zip",
+          "checksum": "SHA-256:F05F8A19CE380CE24C727D837C6C0472523F4B0489CE9C3AEC8259965F3FE383",
+          "size": "30265525",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-61-gab8375a-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "a420774"
+            }
+          ]
+        },
+        {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
           "version": "1.0.5",
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.0.5.zip",
