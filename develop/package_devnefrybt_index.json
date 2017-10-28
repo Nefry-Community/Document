@@ -32,7 +32,7 @@
               "version": "a420774"
             },
             {
-              "packager": "esp32",
+              "packager": "Nefry(ESP32)",
               "name": "mkspiffs",
               "version": "0.2.1"
             }
