@@ -3,7 +3,10 @@
     {
       "name": "Nefry(ESP32)",
       "maintainer": "Nefry Community",
-      "websiteURL": "",
+      "help": {
+        "online": "https://dotstud.io/docs/nefrybt/"
+      },
+      "websiteURL": "http://nefry.studio/",
       "email": "wamiwami@live.jp",
       "platforms": [
         {
@@ -13,11 +16,14 @@
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.1.0.zip",
           "archiveFileName": "nefryicing1.1.0.zip",
-          "checksum": "SHA-256:5658830763355BDE3B74AA9B836A28A3EE855F413734134A5AACC6F9935C17E5",
-          "size": "29714649",
+          "checksum": "SHA-256:494B703CF02F6BDE2C64E07C9A11BD8A76B2CC47E1BEE5422AA1BDDC51A7FAB2",
+          "size": "29661303",
           "boards": [
             {
               "name": "Nefry BT"
+            },
+            {
+              "name": "Nefry BT r2"
             }
           ],
           "toolsDependencies": [
@@ -32,7 +38,7 @@
               "version": "a420774"
             },
             {
-              "packager": "esp32",
+              "packager": "Nefry(ESP32)",
               "name": "mkspiffs",
               "version": "0.2.1"
             }
