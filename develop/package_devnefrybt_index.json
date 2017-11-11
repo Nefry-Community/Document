@@ -12,6 +12,41 @@
         {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
+          "version": "1.1.2",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing1.1.2.zip",
+          "archiveFileName": "nefryicing1.1.2.zip",
+          "checksum": "SHA-256:EA558A5DE216BED939231B696C933125D5BC89258563D7D3C85B4A85545EA278",
+          "size": "29715444",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            },
+            {
+              "name": "Nefry BT r2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-73-ge28a011-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "4dab24e"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "mkspiffs",
+              "version": "0.2.1"
+            }
+          ]
+        },
+        {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
           "version": "1.1.1",
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.1.1.zip",
@@ -544,6 +579,60 @@
               "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-61-gab8375a-5.2.0.tar.gz",
               "checksum": "SHA-256:DBB342B7C377A7C3A1FCCCC60FA1193332D0C37E6A90C5075D3471C13C9E94AD",
               "size": "41032647"
+            }
+          ]
+        },
+        {
+          "name": "xtensa-esp32-elf-gcc",
+          "version": "1.22.0-73-ge28a011-5.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-win32-1.22.0-73-ge28a011-5.2.0.zip",
+              "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-73-ge28a011-5.2.0.zip",
+              "checksum": "SHA-256:97566173909B20567B99EC1B0F5746E341D65961F82FDB760A00937193D03D29",
+              "size": "78710389"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-osx-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "checksum": "SHA-256:5EB503462EB7F6A41C0D6C0538B512AB35A0F76CE96514A4E7A6074F6B3AD0D0",
+              "size": "39903635"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux64-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "checksum": "SHA-256:3763DBED9FD43901C07757622E9C46D29E89EDA812B83627DF5CB9D019CAE0E5",
+              "size": "37656793"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux32-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-73-ge28a011-5.2.0.tar.gz",
+              "checksum": "SHA-256:1D8B1DD16223DCB5181AF7D713582CF7F22DB36C0865D9FCFF7B51CFAC460641",
+              "size": "38991614"
+            }
+          ]
+        },
+        {
+          "name": "esptool",
+          "version": "4dab24e",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/esptool-4dab24e-windows.zip",
+              "archiveFileName": "esptool-4dab24e-windows.zip",
+              "checksum": "SHA-256:B2572EC1E240FB86EB767EDF88A2D674ABFC3AD19F172B5275057E1FDFE5A77F",
+              "size": "3393851"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/esptool-4dab24e-macos.tar.gz",
+              "archiveFileName": "esptool-4dab24e-macos.tar.gz",
+              "checksum": "SHA-256:1D408145DC3B33FC4C82F38470409E13D9F402CF52C7842EFF27552D7D048B9C",
+              "size": "3809637"
             }
           ]
         },
