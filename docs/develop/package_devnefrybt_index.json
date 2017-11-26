@@ -702,6 +702,20 @@
               "archiveFileName": "esptool-4dab24e-macos.tar.gz",
               "checksum": "SHA-256:1D408145DC3B33FC4C82F38470409E13D9F402CF52C7842EFF27552D7D048B9C",
               "size": "3809637"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/esptool-2.1.tar.gz",
+              "archiveFileName": "esptool-2.1.tar.gz",
+              "checksum": "SHA-256:D709DBF89EE36EC7DB3BBC35E574232ACC6E32BEA4E8257F8F56411CDD48E321",
+              "size": "68974"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/esptool-2.1.tar.gz",
+              "archiveFileName": "esptool-2.1.tar.gz",
+              "checksum": "SHA-256:D709DBF89EE36EC7DB3BBC35E574232ACC6E32BEA4E8257F8F56411CDD48E321",
+              "size": "68974"
             }
           ]
         },
