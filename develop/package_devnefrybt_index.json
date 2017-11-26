@@ -30,7 +30,7 @@
             {
               "packager": "Nefry(ESP32)",
               "name": "xtensa-esp32-elf-gcc",
-              "version": "1.22.0-75-gbaf03c2-5.2.0"
+              "version": "1.22.0-61-gab8375a-5.2.0"
             },
             {
               "packager": "Nefry(ESP32)",
