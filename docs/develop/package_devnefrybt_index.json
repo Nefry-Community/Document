@@ -12,6 +12,41 @@
         {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
+          "version": "1.1.3",
+          "category": "ESP32",
+          "url": "https://nefry.studio/driver/nefryicing1.1.3.zip",
+          "archiveFileName": "nefryicing1.1.3.zip",
+          "checksum": "SHA-256:4695E9B2A125499BE7E24A348BC56AC20A0CA5A8190851527FD5FF3F0DEF4008",
+          "size": "29728565",
+          "boards": [
+            {
+              "name": "Nefry BT"
+            },
+            {
+              "name": "Nefry BT r2"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "1.22.0-75-gbaf03c2-5.2.0"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "esptool",
+              "version": "4dab24e"
+            },
+            {
+              "packager": "Nefry(ESP32)",
+              "name": "mkspiffs",
+              "version": "0.2.1"
+            }
+          ]
+        },
+        {
+          "name": "Nefry(ESP32)",
+          "architecture": "esp32",
           "version": "1.1.2",
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.1.2.zip",
@@ -548,6 +583,40 @@
         }
       ],
       "tools": [
+        {
+          "name": "xtensa-esp32-elf-gcc",
+          "version": "1.22.0-75-gbaf03c2-5.2.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-win32-1.22.0-75-gbaf03c2-5.2.0.zip",
+              "archiveFileName": "xtensa-esp32-elf-win32-1.22.0-75-gbaf03c2-5.2.0.zip",
+              "checksum": "SHA-256:B1735BE3A24C3AA5EDC672A67AEAA0BF0922C01D514A6BB905D5CD3D6FB86399",
+              "size": "78900581"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-osx-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:8BDAEF8C88FA5E111837587E1EBD2AF93125CBA96A6EC7D717FE14803723A69B",
+              "size": "39897281"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux64-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux64-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:C65A719545B773149CAD7008C618053443F57A9C15E4AD60877CCCE0A5EEF82A",
+              "size": "37642712"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-linux32-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-linux32-1.22.0-75-gbaf03c2-5.2.0.tar.gz",
+              "checksum": "SHA-256:040F7E230941C785E44936236913B1C0585594F140880E2C34758B7BE8709CF6",
+              "size": "38978071"
+            }
+          ]
+        },
         {
           "name": "xtensa-esp32-elf-gcc",
           "version": "1.22.0-61-gab8375a-5.2.0",
