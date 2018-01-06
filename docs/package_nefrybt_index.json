@@ -9,15 +9,6 @@
       "websiteURL": "http://nefry.studio/",
       "email": "wamiwami@live.jp",
       "platforms": [
-      {
-      "name": "Nefry(ESP32)",
-      "maintainer": "Nefry Community",
-      "help": {
-        "online": "https://dotstud.io/docs/nefrybt/"
-      },
-      "websiteURL": "http://nefry.studio/",
-      "email": "wamiwami@live.jp",
-      "platforms": [
         {
           "name": "Nefry(ESP32)",
           "architecture": "esp32",
