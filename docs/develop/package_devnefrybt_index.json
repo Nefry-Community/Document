@@ -16,8 +16,8 @@
           "category": "ESP32",
           "url": "https://nefry.studio/driver/nefryicing1.1.5.zip",
           "archiveFileName": "nefryicing1.1.5.zip",
-          "checksum": "SHA-256:1509754E1D4A84DE15828177F940158527317CC361D2AFC95AFB6D3E77C15BF7",
-          "size": "32430662",
+          "checksum": "SHA-256:8E0BFCD720E97820125872A0DD393007FC85C41A99306E3E4EA75BA4AA32BA2D",
+          "size": "32433023",
           "boards": [
             {
               "name": "Nefry BT"
@@ -867,10 +867,10 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://nefry.studio/cm/xtensa-esp32-elf-osx-1.22.0-73-ge28a011-5.2.0.tar.gz",
-              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-73-ge28a011-5.2.0.tar.gz",
-              "checksum": "SHA-256:5EB503462EB7F6A41C0D6C0538B512AB35A0F76CE96514A4E7A6074F6B3AD0D0",
-              "size": "39903635"
+              "url": "https://nefry.studio/cm/xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+              "archiveFileName": "xtensa-esp32-elf-osx-1.22.0-80-g6c4433a-5.2.0.tar.gz",
+              "checksum": "SHA-256:A4307A97945D2F2F2745F415FBE80D727750E19F91F9A1E7E2F8A6065652F9DA",
+              "size": "46517409"
             },
             {
               "host": "x86_64-pc-linux-gnu",
@@ -995,10 +995,10 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://nefry.studio/cm/esptool-96698a3-macos.tar.gz",
-              "archiveFileName": "esptool-96698a3-macos.tar.gz",
-              "checksum": "SHA-256:A816044102F06738A64A8C0CCCAAD95D0B5F0BAACC95390E3AECD299039F46FE",
-              "size": "3806849"
+              "url": "https://nefry.studio/cm/esptool-da31d9d-macos.tar.gz",
+              "archiveFileName": "esptool-da31d9d-macos.tar.gz",
+              "checksum": "SHA-256:846D3F2804CAA7467FD61A079E9B2578AC3ED2B098F241D4C029FA1FDE7F32D8",
+              "size": "3811116"
             }
           ]
         },
@@ -1015,17 +1015,10 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://nefry.studio/cm/mkspiffs-0.2.1-osx.tar.gz",
-              "archiveFileName": "mkspiffs-0.2.1-osx.tar.gz",
-              "checksum": "SHA-256:66e71f20d72fd7c5a75e016b5d88d51793558e68b0e069142dbe8ac1de30a431",
-              "size": "122716"
-            },
-            {
-              "host": "i386-apple-darwin",
-              "url": "https://nefry.studio/cm/mkspiffs-0.2.1-osx.tar.gz",
-              "archiveFileName": "mkspiffs-0.2.1-osx.tar.gz",
-              "checksum": "SHA-256:66e71f20d72fd7c5a75e016b5d88d51793558e68b0e069142dbe8ac1de30a431",
-              "size": "122716"
+              "url": "https://nefry.studio/cm/mkspiffs-0.2.2-osx.tar.gz",
+              "archiveFileName": "mkspiffs-0.2.2-osx.tar.gz",
+              "checksum": "SHA-256:E210F6A3C831883530DBF7B1D1C8BC5F5CC39BA3FD61C35EBE0280442E6415C7",
+              "size": "130011"
             },
             {
               "host": "x86_64-pc-linux-gnu",
@@ -1056,13 +1049,6 @@
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://nefry.studio/cm/mkspiffs-0.2.1-osx.tar.gz",
-              "archiveFileName": "mkspiffs-0.2.1-osx.tar.gz",
-              "checksum": "SHA-256:66e71f20d72fd7c5a75e016b5d88d51793558e68b0e069142dbe8ac1de30a431",
-              "size": "122716"
-            },
-            {
-              "host": "i386-apple-darwin",
               "url": "https://nefry.studio/cm/mkspiffs-0.2.1-osx.tar.gz",
               "archiveFileName": "mkspiffs-0.2.1-osx.tar.gz",
               "checksum": "SHA-256:66e71f20d72fd7c5a75e016b5d88d51793558e68b0e069142dbe8ac1de30a431",
