@@ -69,7 +69,12 @@ Nefryのドキュメントとなっております。
 ![Nefry_Pin.png](https://qiita-image-store.s3.amazonaws.com/0/97208/ba4a18a9-c793-bca0-5d3a-da47eea8ef71.png)
 
 ## Nefry BT ピンアサイン
+
+-  Nefry BT　(無印)
+
 ![NefryBT_Pin.png](img/nefrybt_pinmap.png)
+
+- Nefry BT R2/R3
 
 ![NefryBTr2/r3_Pin.png](img/NefryBTr2_r3_pinmap.png)
 
