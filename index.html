@@ -1,6 +1,9 @@
 
+
+
+
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="ja" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -16,9 +19,26 @@
         <meta name="author" content="Nefry-community">
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <meta name="lang:clipboard.copy" content="クリップボードへコピー">
       
-      <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.1">
+        <meta name="lang:clipboard.copied" content="コピーしました">
+      
+        <meta name="lang:search.language" content="jp">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="何も見つかりませんでした">
+      
+        <meta name="lang:search.result.one" content="1件見つかりました">
+      
+        <meta name="lang:search.result.other" content="#件見つかりました">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-　、。，．]+">
+      
+      <link rel="shortcut icon" href="./assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
     
     
       
@@ -26,19 +46,15 @@
       
     
     
-      <script src="./assets/javascripts/modernizr-1df76c4e58.js"></script>
-    
-    
-      <link rel="stylesheet" href="./assets/stylesheets/application-bfecc7305d.css">
-      
-        <link rel="stylesheet" href="./assets/stylesheets/application-02c2a4388f.palette.css">
+      <link rel="stylesheet" href="./assets/stylesheets/application.8d40d89b.css">
       
     
     
+      <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
-        
-        
-        
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
@@ -50,63 +66,89 @@
     
   </head>
   
-  
-  
-  
-    <body data-md-color-primary="orange" data-md-color-accent="purple">
+    <body dir="ltr">
   
     <svg class="md-svg">
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
         
       </defs>
     </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#nefry" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <a href="https://nefry.studio/" title="Nefry" class="md-logo md-header-nav__button">
-            <img src="./img/icon.jpeg" width="24" height="24">
-          </a>
-        
+        <a href="https://nefry.studio/" title="Nefry" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
       </div>
       <div class="md-flex__cell md-flex__cell--stretch">
-        <span class="md-flex__ellipsis md-header-nav__title">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
             
-              
+              <span class="md-header-nav__topic">
+                Nefry
+              </span>
+              <span class="md-header-nav__topic">
+                Nefryのトップページ
+              </span>
             
-            Home
           
-        </span>
+        </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
-          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
           
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">close</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result" data-md-lang-search="" data-md-lang-tokenizer="[\s\-]+">
-          <div class="md-search-result__meta" data-md-lang-result-none="No matching documents" data-md-lang-result-one="1 matching document" data-md-lang-result-other="# matching documents">
-            Type to start searching
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            検索キーワードを入力してください
           </div>
           <ol class="md-search-result__list"></ol>
         </div>
@@ -114,6 +156,7 @@
     </div>
   </div>
 </div>
+          
         
       </div>
       
@@ -125,7 +168,7 @@
   
 
 
-  <a href="https://github.com/Nefry-Community/Arduino" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/Nefry-Community/Arduino/" title="リポジトリへ" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -147,6 +190,8 @@
     
     <div class="md-container">
       
+        
+      
       
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
@@ -157,11 +202,11 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="drawer">
-    
-      <i class="md-logo md-nav__button">
-        <img src="./img/icon.jpeg">
-      </i>
-    
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </span>
     Nefry
   </label>
   
@@ -172,7 +217,7 @@
   
 
 
-  <a href="https://github.com/Nefry-Community/Arduino" title="Go to repository" class="md-source" data-md-source="github">
+  <a href="https://github.com/Nefry-Community/Arduino/" title="リポジトリへ" class="md-source" data-md-source="github">
     
       <div class="md-source__icon">
         <svg viewBox="0 0 24 24" width="24" height="24">
@@ -204,11 +249,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Home
+        Nefryのトップページ
       </label>
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
+    <a href="." title="Nefryのトップページ" class="md-nav__link md-nav__link--active">
+      Nefryのトップページ
     </a>
     
       
@@ -218,8 +263,15 @@
     
   
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
+    <label class="md-nav__title" for="toc">目次</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="コミュニティ本が発売されました！" class="md-nav__link">
+    コミュニティ本が発売されました！
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#nefry-bt" title="次期モジュールNefry BTが発売されました！" class="md-nav__link">
@@ -263,22 +315,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" title="ドキュメント" class="md-nav__link">
+  <a href="#_2" title="ドキュメント" class="md-nav__link">
     ドキュメント
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="ケースの組み立て方" class="md-nav__link">
+  <a href="#_3" title="ケースの組み立て方" class="md-nav__link">
     ケースの組み立て方
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" title="ピンアサイン" class="md-nav__link">
-    ピンアサイン
+  <a href="#nefry-v2" title="Nefry V2 ピンアサイン" class="md-nav__link">
+    Nefry V2 ピンアサイン
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nefry-bt_2" title="Nefry BT ピンアサイン" class="md-nav__link">
+    Nefry BT ピンアサイン
   </a>
   
     <nav class="md-nav">
@@ -302,6 +361,8 @@
   </a>
   
 </li>
+      
+      
       
       
       
@@ -641,8 +702,15 @@
     
   
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
+    <label class="md-nav__title" for="toc">目次</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="コミュニティ本が発売されました！" class="md-nav__link">
+    コミュニティ本が発売されました！
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#nefry-bt" title="次期モジュールNefry BTが発売されました！" class="md-nav__link">
@@ -686,22 +754,29 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" title="ドキュメント" class="md-nav__link">
+  <a href="#_2" title="ドキュメント" class="md-nav__link">
     ドキュメント
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_2" title="ケースの組み立て方" class="md-nav__link">
+  <a href="#_3" title="ケースの組み立て方" class="md-nav__link">
     ケースの組み立て方
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" title="ピンアサイン" class="md-nav__link">
-    ピンアサイン
+  <a href="#nefry-v2" title="Nefry V2 ピンアサイン" class="md-nav__link">
+    Nefry V2 ピンアサイン
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nefry-bt_2" title="Nefry BT ピンアサイン" class="md-nav__link">
+    Nefry BT ピンアサイン
   </a>
   
     <nav class="md-nav">
@@ -728,6 +803,8 @@
       
       
       
+      
+      
     </ul>
   
 </nav>
@@ -740,13 +817,19 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/Nefry-Community/Arduino/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/Nefry-Community/Arduino/edit/master/docs/index.md" title="編集" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <p>﻿</p>
-<h1 id="nefry">Nefryのトップページ</h1>
+                <h1 id="nefry">Nefryのトップページ</h1>
 <p>「Nefry（ねふりー）」とは、MilkcocoaやmyThings、IFTTTなどのインターネットのサービスとハードウェアを簡単に接続できるモジュールです。</p>
 <p>また、スマートフォンで使うようなモバイルバッテリーで動くので、場所を選ばずに使えます。</p>
+<h2 id="_1">コミュニティ本が発売されました！</h2>
+<p>チュートリアル本の「きょうからのNefry」とどんなことができるのかわかる「ステップアップNefry」の二本立てです！
+<img alt="きょうからのNefry" src="./img/todayNefry.png" /></p>
+<ul>
+<li><a href="http://shop.comiczin.jp/products/detail.php?product_id=36440">きょうからのNefry（チュートリアル本）</a></li>
+<li><a href="https://wamisnet.booth.pm/items/821884">ステップアップNefry（事例本）</a></li>
+</ul>
 <h2 id="nefry-bt">次期モジュールNefry BTが発売されました！</h2>
 <p><img alt="" src="./img/top-hero_nefry.png" /><br />
 <a href="https://kibidango.com/513">クラウドファンディング</a>で437%を達成したWi-FiとBLEを搭載したESP32を使ったNefryBTが<a href="https://dotstud.io/shop/nefry-bt-single/">dotstudio</a>より一般販売されました。</p>
@@ -814,19 +897,22 @@
 <p>より販売中！！</p>
 <h2 id="nefry_3">Nefryでできること</h2>
 <p><strong><a href="./Nefryでできること+作品集/">こちらのページに移動しました</a></strong></p>
-<h2 id="_1">ドキュメント</h2>
+<h2 id="_2">ドキュメント</h2>
 <p>Nefryのドキュメントとなっております。<br />
 <a href="https://nefrt.studio/Nefry_manual.pdf">Nefry説明書</a><br />
 <a href="https://drive.google.com/file/d/0B_mvDQF8yaQRLVprUHl4WTFLWVE/view">NefryBT説明書</a><br />
 そのほかのドキュメントに関してはdotstudioにまとめてあります。<br />
 <a href="https://dotstud.io/docs/nefry/">Nefryドキュメント</a><br />
 <a href="https://dotstud.io/docs/nefrybt/">NefryBTドキュメント</a>  </p>
-<h2 id="_2">ケースの組み立て方</h2>
+<h2 id="_3">ケースの組み立て方</h2>
 <p>ケースのAIデータもありますので、カスタマイズしたオリジナルケースを作ることも可能です。
 組み立て方のコツを書いてありますのでぜひご覧ください。<br />
 <a href="http://fabble.cc/wamisnet/nefry-case">http://fabble.cc/wamisnet/nefry-case</a></p>
-<h2 id="_3">ピンアサイン</h2>
+<h2 id="nefry-v2">Nefry V2 ピンアサイン</h2>
 <p><img alt="Nefry_Pin.png" src="https://qiita-image-store.s3.amazonaws.com/0/97208/ba4a18a9-c793-bca0-5d3a-da47eea8ef71.png" /></p>
+<h2 id="nefry-bt_2">Nefry BT ピンアサイン</h2>
+<p><img alt="NefryBT_Pin.png" src="./img/nefrybt_pinmap.png" /></p>
+<p><img alt="NefryBTr2/r3_Pin.png" src="./img/NefryBTr2_r3_pinmap.png" /></p>
 <h3 id="_4">設計情報</h3>
 <p>回路図<br />
 <img alt="回路図" src="./img/nefrykr.png" /><br />
@@ -843,6 +929,8 @@
               
               
                 
+
+
               
             </article>
           </div>
@@ -860,7 +948,7 @@
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  次
                 </span>
                 ArduinoIDEの環境を整えよう
               </span>
@@ -878,13 +966,13 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            Copyright (c) 2016 Nefry Community
+            Copyright (c) 2016-2018 Nefry Community
           </div>
         
         powered by
-        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        <a href="http://www.mkdocs.org">MkDocs</a>
         and
-        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+        <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
       
@@ -896,15 +984,31 @@
       
     </div>
     
-      <script src="./assets/javascripts/application-6940329b9f.js"></script>
+      <script src="./assets/javascripts/application.b438e6c5.js"></script>
       
+        
+        
+          
+          <script src="./assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+                <script src="./assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="./assets/javascripts/lunr/lunr.jp.js"></script>
+              
+            
+          
+          
+        
       
-      <script>app.initialize({url:{base:"."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:"."}})</script>
       
     
     
       
-      <script>!function(e,t,a,n,o,c,i){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,c=t.createElement(a),i=t.getElementsByTagName(a)[0],c.async=1,c.src=n,i.parentNode.insertBefore(c,i)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-62256925-4","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var t=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",t,e.href)})});var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})</script>
+        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-62256925-4","auto"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
       
     
   </body>
