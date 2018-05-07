@@ -13,14 +13,17 @@ repo_name: 'GitHub'
 repo_url: 'https://github.com/Nefry-Community/Arduino'
 
 # Copyright
-copyright: 'Copyright (c) 2016 Nefry Community'
+copyright: 'Copyright (c) 2016-2018 Nefry Community'
 
 # Documentation and theme
 docs_dir: 'docs'
-theme: 'material'
-
+theme:
+  name: 'material'
+  language: 'ja'
 # Options
 extra:
+  search:
+    language: 'jp'
   version: '2.3.0'
   logo: 'img/icon.jpeg'
   palette:
