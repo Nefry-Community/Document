@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run:
           name: Build Web
-          command: mkdocs gh-deploy -m [ci skip] deploy
+          command: mkdocs gh-deploy -m "Update [ci skip]"
