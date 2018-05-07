@@ -7,7 +7,7 @@
 
 ## コミュニティ本が発売されました！
 チュートリアル本の「きょうからのNefry」とどんなことができるのかわかる「ステップアップNefry」の二本立てです！
-![きょうからのNefry](img/todayNefry.png)
+![きょうからのNefry](img/todayNefry.jpg)
 
 - [きょうからのNefry（チュートリアル本）](http://shop.comiczin.jp/products/detail.php?product_id=36440)
 - [ステップアップNefry（事例本）](https://wamisnet.booth.pm/items/821884)
