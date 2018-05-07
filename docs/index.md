@@ -5,6 +5,13 @@
 
 また、スマートフォンで使うようなモバイルバッテリーで動くので、場所を選ばずに使えます。
 
+## コミュニティ本が発売されました！
+チュートリアル本の「きょうからのNefry」とどんなことができるのかわかる「ステップアップNefry」の二本立てです！
+![きょうからのNefry](img/todayNefry.png)
+
+- [きょうからのNefry（チュートリアル本）](http://shop.comiczin.jp/products/detail.php?product_id=36440)
+- [ステップアップNefry（事例本）](https://wamisnet.booth.pm/items/821884)
+
 ##次期モジュールNefry BTが発売されました！
 ![](./img/top-hero_nefry.png)  
 [クラウドファンディング](https://kibidango.com/513)で437%を達成したWi-FiとBLEを搭載したESP32を使ったNefryBTが[dotstudio](https://dotstud.io/shop/nefry-bt-single/)より一般販売されました。
@@ -31,7 +38,7 @@
 - [dotstudio](https://dotstud.io/projects/nefry-connect-internet/)さん
 - [ツクモ](http://shop.tsukumo.co.jp/goods/4589490377268/)さん
 - [千石電商](http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-55W7)さん  
-  
+
 よりそれぞれ販売中！
 
 ###Nefry BT
@@ -58,8 +65,13 @@ Nefryのドキュメントとなっております。
 組み立て方のコツを書いてありますのでぜひご覧ください。  
 [http://fabble.cc/wamisnet/nefry-case](http://fabble.cc/wamisnet/nefry-case)
 
-##ピンアサイン
+## Nefry V2 ピンアサイン
 ![Nefry_Pin.png](https://qiita-image-store.s3.amazonaws.com/0/97208/ba4a18a9-c793-bca0-5d3a-da47eea8ef71.png)
+
+## Nefry BT ピンアサイン
+![NefryBT_Pin.png](img/nefrybt_pinmap.png)
+
+![NefryBTr2/r3_Pin.png](img/NefryBTr2_r3_pinmap.png)
 
 ###設計情報
 回路図  
