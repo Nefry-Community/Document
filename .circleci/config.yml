@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: squidfunk/mkdocs-material:2.7.3
+    steps:
+      - checkout
+      - run:
+          name: Build Web
+          command: mkdocs gh-deploy -m [ci skip] deploy
