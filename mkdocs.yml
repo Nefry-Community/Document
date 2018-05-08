@@ -20,7 +20,8 @@ docs_dir: 'docs'
 theme:
   name: 'material'
   language: 'ja'
-  logo: 'cloud'
+  logo:
+    icon: 'cloud'
   palette:
     primary: 'Orange'
     accent: 'Purple'
