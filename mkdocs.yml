@@ -20,21 +20,15 @@ docs_dir: 'docs'
 theme:
   name: 'material'
   language: 'ja'
+  logo: 'cloud'
+  palette:
+    primary: 'Orange'
+    accent: 'Purple'
 # Options
 extra:
   search:
     language: 'jp'
   version: '2.3.0'
-  logo: 'img/icon.jpeg'
-  palette:
-    primary: 'Orange'
-    accent: 'Purple'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  i18n:
-    prev: 'Previous'
-    next: 'Next'
   author:
     github: 'wamisnet'
     twitter: 'wamisnet'
