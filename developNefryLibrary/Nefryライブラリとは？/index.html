@@ -783,84 +783,47 @@
                 
                 
                 <h1 id="nefry">Nefryライブラリとは？</h1>
-<!-- 
-## addWifi
-![2.3.0](pic/2.3.0.png)
-
-WiFiの設定を追加することができます。5つまでのWiFiを保存することができます。  
-5つを超えた場合最も古いデータから削除されます。
-
-||||
-|:---:|:---:|:---:|
-|引数1|String|接続したい端末のSSID|
-|引数2|String|接続したい端末のパスワード|
-|返り値|void|なし|
-|具体例||Nefry.addWifi("SSID","Password");|
- -->
-
-<p>Nefryのライブラリーを使用していただきありがとうございます。<br />
-こちらのドキュメントは随時更新していきます。</p>
-<p>Arduino IDEでのプログラミングを想定しています。<br />
-Arduino IDEの使用時には<code>#include&lt;Nefry.h&gt;</code>を入力してから使用してください。<br />
-関数を呼び出す時には"Nefry.関数()"とすることで使うことができます。<br />
-例えば<code>Nefry.print("test");</code>や<code>Nefry.reset();</code>このように使うことができます。</p>
+<p>Nefryライブラリとは、ESP8266やESP32で動作するNefry v2やNefry BTなどのハードウェアを簡単に動作するようにしたライブラリです。</p>
+<p>無線LANの設定やモジュールの設定、環境変数の設定などができます。
+上の機能を使って実際に作りたいものに特化してプログラムを作ることができます。</p>
+<p><img alt="Nefryライブラリスタック" src="../pic/nefrystack.png" /></p>
+<p>Nefry BTを例に説明していきます。</p>
+<p>上記の図がNefryライブラリのスタックになります。</p>
+<p>Arduino ESP32をベースにその上にNefryライブラリを載せているのが分かると思います。
+随時ベースとなっているArduino ESP32のアップデートを行っていきます。</p>
+<p><img alt="Nefryライブラリ起動手順" src="../pic/nefryflow.png" /></p>
+<p>Nefryライブラリの起動手順について説明します。</p>
+<p>基本的には上の図を確認していただけると分かると思いますが、書き込みモードについて説明していきます。</p>
+<p>書き込みモードとは、ライブラリのみの動作をするモードでオンラインアップデートなどを行うときに使うとよいモードになります。
+書き込みモードに移行するには、Nefryの起動中にSWを押すことでそちらのモードに切り替えることができるほか、Webページから書き込みモードに切り替えることができます。</p>
 <h2 id="_1">どんなことができるの？(ソフトウエア)</h2>
 <p>Nefryのハードウエア×ソフトウエアで難しいIoTを簡単に扱えるようにしています。  </p>
 <p>Nefryが出力しているWiFiに接続すると自動的にWebページが立ち上がり様々な設定ができます。  </p>
 <ul>
 <li>WiFiの設定ページ<br />
-<a href="../WiFi関連関数/">WiFi関連関数のページ</a><br />
+<a href="http://nefry.studio/NefryLibrary/WiFi関連関数/">WiFi関連関数のページ</a><br />
 Nefryに5つまでのWiFiを記憶させることができ、WiFiに接続するときに最も適したものに接続します。<br />
 WiFiを検索して、簡単に保存することができます。Nefryに保存済みのWiFi Listを削除することもできます。</li>
 </ul>
 <p><img alt="wifi" src="../pic/wifi.png" /></p>
 <ul>
 <li>Nefryの各種設定ページ<br />
-<a href="../Module関連関数/">Module関連関数のページ</a>  </li>
+<a href="http://nefry.studio/NefryLibrary/Module関連関数/">DataStore関連関数のページ</a>  </li>
 </ul>
 <p>Nefryに対して様々な設定ができます。Nefryに名前を付けたり、Nefryが出力するWiFiにパスワードを付けることができます。<br />
 他にも環境変数として、文字列8つと数値8つ扱うことができ、その値はプログラムから扱うことができます。<br />
 この環境変数を上手く使うとサクッと設定値を変更することができるのでプログラムの幅が広がります。</p>
-<p><img alt="module" src="../pic/module.png" /><br />
-全件表示<br />
-<img alt="module" src="../pic/modulefull.png" /></p>
-<ul>
-<li>プログラムの更新ページ<br />
-<a href="../アップデート関連関数/">アップデート関連関数のページ</a><br />
-Nefryのプログラムを更新する方法は主に2つあります。<br />
-ローカルアップデートとオンラインアップデートがあります。それぞれの章で説明していきます。</li>
-</ul>
-<div class="admonition memo">
-<p class="admonition-title">Memo</p>
-<ul>
-<li>ローカルアップデート  </li>
-</ul>
-<p>ローカルアップデートは、ファイルを選んでNefryにアップロードすることで更新する機能です。<br />
-基本的にはこちらの方法で扱うことになります。<br />
-Arduino IDEでファイルを作成し、アップロードする流れになります。<br />
-ファイルの作成方法については、<a href="http://nefry.studio/Nefry%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E6%9B%B8%E3%81%93%E3%81%86/">こちら</a>を参照してください。</p>
-<p><img alt="local" src="../pic/local.png" /></p>
-</div>
-<div class="admonition memo">
-<p class="admonition-title">Memo</p>
-<ul>
-<li>オンラインアップデート  </li>
-</ul>
-<p>オンラインアップデートは、ネット上にアップロードされているファイルをNefryがダウンロードして、自らを更新する機能です。<br />
-Nefryが実行できるファイルがネットにあればプログラムを書かずに試すことができますので手軽に始めることができます。<br />
-<a href="http://program.nefry.studio/">こちらのサイト</a>でプログラムを公開していますので是非参考にしてください。  </p>
-<p><img alt="web" src="../pic/web.png" /></p>
-</div>
+<p><img alt="DataStore" src="../pic/module.png" />  </p>
 <ul>
 <li>Nefryコンソール<br />
-<a href="../Console関連関数/">Console関連関数のページ</a><br />
+<a href="http://nefry.studio/NefryLibrary/Console関連関数/">Console関連関数のページ</a><br />
 NefryにはWeb上で確認できるコンソールがあります。<br />
 ページ内で入力することもできます。<br />
 Nefryから取得して表示間隔も変更できます。  </li>
 </ul>
 <p><img alt="console" src="../pic/console.png" /></p>
 <h2 id="_2">どんなことができるの？(ハードウエア)</h2>
-<p><a href="../ハードウエア関連関数/">ハードウエア関連関数のページ</a>  </p>
+<p><a href="http://nefry.studio/NefryLibrary/ハードウエア関連関数/">ハードウエア関連関数のページ</a>  </p>
 <ul>
 <li>フルカラーLED<br />
 RGBで色を指定して光らせることができます。</li>
