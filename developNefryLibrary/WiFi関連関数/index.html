@@ -616,57 +616,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#addwifi" title="addWifi" class="md-nav__link">
-    addWifi
+  <a href="#addwifi" title="addWiFi" class="md-nav__link">
+    addWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getlistwifi" title="getlistWifi" class="md-nav__link">
-    getlistWifi
+  <a href="#deletewifi" title="deleteWiFi" class="md-nav__link">
+    deleteWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#deletewifi" title="deleteWifi" class="md-nav__link">
-    deleteWifi
+  <a href="#savewifi" title="saveWiFi" class="md-nav__link">
+    saveWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#searchwifi" title="searchWiFi" class="md-nav__link">
-    searchWiFi
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwiifauto" title="setWiifAuto" class="md-nav__link">
-    setWiifAuto
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwifitimeout" title="setWifiTimeout" class="md-nav__link">
-    setWifiTimeout
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwifitimeoutclear" title="setWifiTimeoutClear" class="md-nav__link">
-    setWifiTimeoutClear
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#autoconnect" title="autoConnect" class="md-nav__link">
-    autoConnect
+  <a href="#getwifilist" title="getWiFiList" class="md-nav__link">
+    getWiFiList
   </a>
   
 </li>
@@ -792,57 +764,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#addwifi" title="addWifi" class="md-nav__link">
-    addWifi
+  <a href="#addwifi" title="addWiFi" class="md-nav__link">
+    addWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getlistwifi" title="getlistWifi" class="md-nav__link">
-    getlistWifi
+  <a href="#deletewifi" title="deleteWiFi" class="md-nav__link">
+    deleteWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#deletewifi" title="deleteWifi" class="md-nav__link">
-    deleteWifi
+  <a href="#savewifi" title="saveWiFi" class="md-nav__link">
+    saveWiFi
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#searchwifi" title="searchWiFi" class="md-nav__link">
-    searchWiFi
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwiifauto" title="setWiifAuto" class="md-nav__link">
-    setWiifAuto
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwifitimeout" title="setWifiTimeout" class="md-nav__link">
-    setWifiTimeout
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#setwifitimeoutclear" title="setWifiTimeoutClear" class="md-nav__link">
-    setWifiTimeoutClear
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#autoconnect" title="autoConnect" class="md-nav__link">
-    autoConnect
+  <a href="#getwifilist" title="getWiFiList" class="md-nav__link">
+    getWiFiList
   </a>
   
 </li>
@@ -867,262 +811,77 @@
                 
                 
                 <h1 id="wifi">WiFi関連関数</h1>
-<p>NefryのWiFi関連の関数をまとめてみました。WiFiに必要な設定などを行うことができます。<br />
+<p>NefryのWiFi関連の関数をまとめました。</p>
+<p>WiFiに必要な設定などを行うことができます。<br />
 このページの内容は、Nefryが表示しているWebページでも扱えます。</p>
-<h2 id="addwifi">addWifi</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>WiFiの設定を追加することができます。5つまでのWiFiを保存することができます。<br />
+<h2 id="addwifi">addWiFi</h2>
+<p>WiFiの設定を追加することができます。</p>
+<p>5つまでのWiFiを保存することができます。<br />
 5つを超えた場合最も古いデータから削除されます。</p>
+<p>変更が完了したら <code>saveWiFi</code> 関数で保存してください。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数１</th>
+<th align="center">引数２</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数1</td>
-<td align="center">String</td>
-<td align="center">接続したい端末のSSID</td>
-</tr>
-<tr>
-<td align="center">引数2</td>
-<td align="center">String</td>
-<td align="center">接続したい端末のパスワード</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.addWifi("SSID","Password");</td>
+<td align="center">String（接続したい端末のSSID）</td>
+<td align="center">String（接続したい端末のパスワード）</td>
+<td align="center">void（なし）</td>
+<td align="center">Nefry.addWiFi("SSID","Password");</td>
 </tr>
 </tbody>
 </table>
-<h2 id="getlistwifi">getlistWifi</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>WiFiの設定を表示することができます。IDとSSIDを表示することができます。  </p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">String</td>
-<td align="center">WiFiの保存情報</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.println(Nefry.getlistWifi());</td>
-</tr>
-</tbody>
-</table>
-<h2 id="deletewifi">deleteWifi</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
+<h2 id="deletewifi">deleteWiFi</h2>
 <p>WiFiの設定を削除することができます。削除するデータをIDで指定します。<br />
 getlistWifi関数でIDについて確認することができます。</p>
+<p>変更が完了したら <code>saveWiFi</code> 関数で保存してください。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数１</th>
+<th align="center">引数２</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数1</td>
-<td align="center">int</td>
-<td align="center">削除ID</td>
-</tr>
-<tr>
-<td align="center">引数2</td>
-<td align="center">bool</td>
-<td align="center">(指定なしOK)<strong>必ず最後のみ</strong>保存をするかどうか</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">int（削除ID）</td>
+<td align="center">bool（（指定なしOK<strong>必ず最後のみ</strong>保存をするかどうか）</td>
+<td align="center">void（なし）</td>
 <td align="center">Nefry.deleteWifi(1);</td>
 </tr>
 </tbody>
 </table>
-<h2 id="searchwifi">searchWiFi</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" />  </p>
-<p>WiFiを検索します。これは、デフォルトで呼ばれるため基本的にはユーザが呼ぶ必要はありません。</p>
+<h2 id="savewifi">saveWiFi</h2>
+<p>WiFiの設定を保存します。追加や削除をメモリに保存します。</p>
+<p>|引数|返り値|具体例|
+|:---:|:---:|:---:|:---:|
+|void（なし）|void（なし）|Nefry.saveWiFi();|</p>
+<h2 id="getwifilist">getWiFiList</h2>
+<p>WiFiの設定を表示することができます。IDとSSIDを表示することができます。  </p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">int</td>
-<td align="center">0:接続済み 0以外:接続Err</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.searchWiFi();</td>
+<td align="center">void（なし）</td>
+<td align="center">String（WiFiの保存情報）</td>
+<td align="center">Nefry.println(Nefry.getWiFiList());</td>
 </tr>
 </tbody>
 </table>
-<h2 id="setwiifauto">setWiifAuto</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" />  </p>
-<p>WiFiの自動接続をするかどうかを選択できます。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">bool</td>
-<td align="center">true:自動接続する false:自動接続しない</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setWiifAuto(false);</td>
-</tr>
-</tbody>
-</table>
-<h2 id="setwifitimeout">setWifiTimeout</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>WiFiの再接続回数の上限を制限します。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">int</td>
-<td align="center">再接続回数の上限を制限します。</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setWifiTimeout(10);</td>
-</tr>
-</tbody>
-</table>
-<h2 id="setwifitimeoutclear">setWifiTimeoutClear</h2>
-<p><img alt="2.3.0" src="../pic/2.3.0.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>WiFiの再接続回数のカウントをクリアします。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setWifiTimeoutClear();</td>
-</tr>
-</tbody>
-</table>
-<h2 id="autoconnect">autoConnect</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-廃止予定</p>
-<p>WiFiの自動接続をします。Nefryのライブラリで自動接続を提供するので廃止を予定しています。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">bool</td>
-<td align="center">true:接続済み false:接続Err</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.autoConnect(10);</td>
-</tr>
-</tbody>
-</table>
-<!-- 
-getWifiTimeout
-getWifiAuto
- -->
                 
                   
                 
