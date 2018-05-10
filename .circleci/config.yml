@@ -6,5 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: git config setting
+          command: |
+            git config --global user.email "wamiwami@live.jp"
+            git config --global user.name "wami"
+      - run:
           name: Build Web
           command: mkdocs gh-deploy -m "Update [ci skip]"
