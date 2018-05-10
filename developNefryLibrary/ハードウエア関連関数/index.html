@@ -829,149 +829,43 @@
 <h2 id="led">フルカラーLED制御</h2>
 <p>RGBで色を変化させることができます。</p>
 <h2 id="setled">setLed</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>NefryのLEDを制御することができます。</p>
-<!-- 
-色の指定の方法が2つありますので順に説明して行きます。
-
-RGBを順に指定する方法
- -->
-
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">int</td>
-<td align="center">赤色の強さを指定します。0-255の範囲で指定ができます。</td>
-</tr>
-<tr>
-<td align="center">引数2</td>
-<td align="center">int</td>
-<td align="center">緑色の強さを指定します。0-255の範囲で指定ができます。</td>
-</tr>
-<tr>
-<td align="center">引数3</td>
-<td align="center">int</td>
-<td align="center">青色の強さを指定します。0-255の範囲で指定ができます。</td>
-</tr>
-<tr>
-<td align="center">引数4</td>
-<td align="center">int</td>
-<td align="center">(指定なしOK)明るさの強さを指定します。0-255の範囲で指定ができます。</td>
-</tr>
-<tr>
-<td align="center">引数5</td>
-<td align="center">int</td>
-<td align="center">(指定なしOK)制御ピンを指定します。NefryのLEDを制御する場合必要ありません。</td>
-</tr>
-<tr>
-<td align="center">引数6</td>
-<td align="center">int</td>
-<td align="center">(指定なしOK)何個目のLEDを光らせるか指定します。NefryのLEDを制御する場合必要ありません。</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setLed(255,0,0);//赤色が点灯します。</td>
-</tr>
-</tbody>
-</table>
-<!-- 
-16進数で指定する方法
-
-||||
+<p>色の指定の方法が2つありますので順に説明して行きます。</p>
+<ul>
+<li>RGBを順に指定する方法</li>
+</ul>
+<p>|引数１|引数２|引数３|引数４|引数５|引数６|返り値|具体例|
 |:---:|:---:|:---:|
-|引数1|const char*|色を指定します。000000からFFFFFFの範囲で指定ができます。|
-|引数4|int|(指定なしOK)明るさの強さを指定します。0-255の範囲で指定ができます。|
-|引数5|int|(指定なしOK)制御ピンを指定します。NefryのLEDを制御する場合必要ありません。|
-|引数6|int|(指定なしOK)何個目のLEDを光らせるか指定します。NefryのLEDを制御する場合必要ありません。|
-|返り値|void|なし|
-|具体例||Nefry.setLed("FF0000");//赤色が点灯します。|
-
--->
-
+|int（赤色の強さを指定します。0-255の範囲で指定ができます。）|int（緑色の強さを指定します。0-255の範囲で指定ができます。）|int（青色の強さを指定します。0-255の範囲で指定ができます。）|int（(指定なしOK)明るさの強さを指定します。0-255の範囲で指定ができます。）|int（(指定なしOK)制御ピンを指定します。NefryのLEDを制御する場合必要ありません。）|int（(指定なしOK)何個目のLEDを光らせるか指定します。NefryのLEDを制御する場合必要ありません。）|void（なし）|Nefry.setLed(255,0,0);//赤色が点灯します。|</p>
+<ul>
+<li>16進数で指定する方法</li>
+</ul>
+<p>|引数１|引数２|引数３|引数４|返り値|具体例|
+|:---:|:---:|:---:|
+|const char*（色を指定します。000000からFFFFFFの範囲で指定ができます。）|int（(指定なしOK)明るさの強さを指定します。0-255の範囲で指定ができます。）|int（(指定なしOK)制御ピンを指定します。NefryのLEDを制御する場合必要ありません。）|int（(指定なしOK)何個目のLEDを光らせるか指定します。NefryのLEDを制御する場合必要ありません。）|void（なし）|Nefry.setLed("FF0000");//赤色が点灯します。|</p>
 <h2 id="beginled">beginLed</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>Nefryについている同じ種類のLEDを制御するときに使える関数です。NefryにもともとついているLEDを使う場合は必要ありません。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">int</td>
-<td align="center">何個のLEDを制御するか入力します。1以上</td>
-</tr>
-<tr>
-<td align="center">引数2</td>
-<td align="center">int</td>
-<td align="center">何番ピンで制御するか入力します。</td>
-</tr>
-<tr>
-<td align="center">引数3</td>
-<td align="center">int</td>
-<td align="center">LEDのmodeを設定します。(Adafruit_NeoPixelライブラリーを参照)</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.beginLed(1,5,NEO_RGB + NEO_KHZ800);</td>
-</tr>
-</tbody>
-</table>
+<p>Nefryについている同じ種類のLEDを制御するときに使える関数です。</p>
+<p>NefryにもともとついているLEDを使う場合は必要ありません。</p>
+<p>|引数１|引数２|引数３|返り値|具体例|
+|:---:|:---:|:---:|
+|int（何個のLEDを制御するか入力します。1以上）|int（何番ピンで制御するか入力します。）|int（LEDのmodeを設定します。(Adafruit_NeoPixelライブラリーを参照)）|void（なし）|Nefry.beginLed(1,5,NEO_RGB + NEO_KHZ800);|</p>
 <h2 id="_2">スイッチ検知</h2>
-<p>NefryにはResetとSWと書かれたスイッチが付いています。<br />
-SWのスイッチについてはプログラムから自由に扱うことができます。</p>
+<p>NefryにはResetとSWと書かれたスイッチが付いています。  </p>
+<p>SWのスイッチについてはプログラムから自由に扱うことができます。</p>
 <h2 id="readsw">readSW</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>この関数が呼ばれたときにスイッチが押されているか検知することができます。旧関数名：push_SW()</p>
+<p>この関数が呼ばれたときにスイッチが押されているか検知することができます。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">bool</td>
-<td align="center">スイッチを押したときにtrue、押さなかったときにfalseが返却されます。</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">bool（スイッチを押したときにtrue、押さなかったときにfalseが返却されます。）</td>
 <td align="center">Nefry.readSW();</td>
 </tr>
 </tbody>
