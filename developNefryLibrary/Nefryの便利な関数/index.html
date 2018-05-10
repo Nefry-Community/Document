@@ -592,13 +592,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ndelay" title="ndelay" class="md-nav__link">
-    ndelay
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#reset" title="reset" class="md-nav__link">
     reset
   </a>
@@ -650,6 +643,13 @@
         <li class="md-nav__item">
   <a href="#getmodulename" title="getModuleName" class="md-nav__link">
     getModuleName
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ndelay" title="ndelay" class="md-nav__link">
+    ndelay
   </a>
   
 </li>
@@ -799,13 +799,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ndelay" title="ndelay" class="md-nav__link">
-    ndelay
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#reset" title="reset" class="md-nav__link">
     reset
   </a>
@@ -861,6 +854,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#ndelay" title="ndelay" class="md-nav__link">
+    ndelay
+  </a>
+  
+</li>
+      
       
       
       
@@ -881,284 +881,161 @@
                 
                 
                 <h1 id="nefry">Nefryの便利な関数</h1>
-<p>Nefryの便利な関数をまとめてみました。</p>
-<h2 id="ndelay">ndelay</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>delayではすべての処理が止まってしまいますがこちらを選ぶことで停止時間にNefryのWeb表示などの様々な機能を継続することができます。
-基本的に500ミリ秒以上の待ち時間になる場合はこちらを選んでください。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">unsigned long</td>
-<td align="center">ミリ秒で時間を指定します。1000ミリ秒＝1秒</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.ndelay(1000);//一秒待つ</td>
-</tr>
-</tbody>
-</table>
+<p>Nefryの便利な関数をまとめました。</p>
 <h2 id="reset">reset</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>Nefryをリセットし、プログラムを初めからやり直します。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">void（なし）</td>
 <td align="center">Nefry.reset();</td>
 </tr>
 </tbody>
 </table>
 <h2 id="sleep">sleep</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>Nefryを省電力モードのスリープモードにします。スリープモードに入ると処理ができません。<br />
-スリープが終わった後はプログラムを初めからやり直します。<br />
-スリープモードを強制的終了させるにはNefry本体のリセットボタンを押すか、指定した時間が経つのを待つしかありません。
-0を入力することで、無期限スリープモードになります。</p>
+<p>Nefryを省電力モードのスリープモードにします。  </p>
+<p><strong>スリープモードに入ると処理ができません。</strong>  </p>
+<p>スリープが終わった後はプログラムを初めからやり直します。<br />
+スリープモードを強制的終了させるにはNefry本体のリセットボタンを押してください。  </p>
+<p>0を入力することで、無期限スリープモードになります。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数1</td>
-<td align="center">int</td>
-<td align="center">ここにスリープする秒数を入力します。単位は秒です。</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">int（ここにスリープする秒数を入力します。単位は秒です。）</td>
+<td align="center">void（なし）</td>
 <td align="center">Nefry.sleep(30);</td>
 </tr>
 </tbody>
 </table>
 <h2 id="getwebserver">getWebServer</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
-<p>ESP8266WebServerを扱うことができます。ユーザ側でWebページを追加することができます。
+<p>WebServerを扱うことができます。<br />
+Webページを追加することができます。<br />
 Nefryのメインページにそのリンクを貼りたいときは<code>setIndexLink</code>関数を使ってください。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">ESP8266WebServer*</td>
-<td align="center">ESP8266WebServerのポインタで返ってきます。</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">WebServer*（WebServerのポインタで返ってきます。）</td>
 <td align="center">Nefry.getWebServer();</td>
 </tr>
 </tbody>
 </table>
 <h2 id="setindexlink">setIndexLink</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>Nefryのメインページにリンクを貼ることができます。</p>
-<table>
-<thead>
-<tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">引数1</td>
-<td align="center">const char[32]</td>
-<td align="center">メインページに表示したい文字をいれてください。</td>
-</tr>
-<tr>
-<td align="center">引数2</td>
-<td align="center">const char[32]</td>
-<td align="center">そのページのURLを入力してください。</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setIndexLink("Nefryの秘密","/secret");</td>
-</tr>
-</tbody>
-</table>
+<p>|引数1|引数2|返り値|具体例|
+|:---:|:---:|:---:|
+|const char[32]（メインページに表示したいリンク文字をいれてください。）|const char[32]（追加ページのURLを入力してください。）|void（なし）|Nefry.setIndexLink("Nefryの秘密","/secret");|</p>
 <h2 id="setprogramname">setProgramName</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>Nefryのトップページで表示されるプログラム名を設定できます。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数1</td>
-<td align="center">const char*</td>
-<td align="center">プログラム名を設定できます。</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">void</td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
-<td align="center">Nefry.setProgramName(10);</td>
+<td align="center">const char*（プログラム名を設定できます。）</td>
+<td align="center">void（なし）</td>
+<td align="center">Nefry.setProgramName("Nefry Display");</td>
 </tr>
 </tbody>
 </table>
 <h2 id="getprogramname">getProgramName</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>Nefryのトップページで表示されるプログラム名を取得することができます。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">String</td>
-<td align="center">プログラム名を取得することができます。</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">String（プログラム名を取得することができます。）</td>
 <td align="center">Nefry.getProgramName();</td>
 </tr>
 </tbody>
 </table>
 <h2 id="getversion">getVersion</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>Nefryライブラリのバージョンを取得することができます。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">String</td>
-<td align="center">Nefryライブラリのバージョンを取得することができます。</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">String（Nefryライブラリのバージョンを取得することができます。）</td>
 <td align="center">Nefry.getVersion();</td>
 </tr>
 </tbody>
 </table>
 <h2 id="getmodulename">getModuleName</h2>
-<p><img alt="2.3.0u" src="../pic/2.3.0u.png" /><br />
-<img alt="nefrybt" src="../pic/nefrybt.jpg" /></p>
 <p>NefryのModule名を取得することができます。</p>
 <table>
 <thead>
 <tr>
-<th align="center"></th>
-<th align="center"></th>
-<th align="center"></th>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">引数</td>
-<td align="center"></td>
-<td align="center">なし</td>
-</tr>
-<tr>
-<td align="center">返り値</td>
-<td align="center">char*</td>
-<td align="center">NefryのModule名を取得することができます。</td>
-</tr>
-<tr>
-<td align="center">具体例</td>
-<td align="center"></td>
+<td align="center">void（なし）</td>
+<td align="center">char* （NefryのModule名を取得することができます。）</td>
 <td align="center">Nefry.getModuleName();</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ndelay">ndelay</h2>
+<p><strong>廃止予定</strong></p>
+<p>delayではすべての処理が止まってしまいますがこちらを選ぶことで停止時間にNefryのWeb表示などの様々な機能を継続することができます。
+基本的に500ミリ秒以上の待ち時間になる場合はこちらを選んでください。</p>
+<table>
+<thead>
+<tr>
+<th align="center">引数</th>
+<th align="center">返り値</th>
+<th align="center">具体例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">unsigned long（ミリ秒で時間を指定します。1000ミリ秒＝1秒）</td>
+<td align="center">void（なし）</td>
+<td align="center">Nefry.ndelay(1000);//一秒待つ</td>
 </tr>
 </tbody>
 </table>
