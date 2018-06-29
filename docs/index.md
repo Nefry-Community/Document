@@ -54,7 +54,7 @@
 
 ##ドキュメント
 Nefryのドキュメントとなっております。  
-[Nefry説明書](https://nefrt.studio/Nefry_manual.pdf)  
+[Nefry説明書](https://nefry.studio/Nefry_manual.pdf)  
 [NefryBT説明書](https://drive.google.com/file/d/0B_mvDQF8yaQRLVprUHl4WTFLWVE/view)  
 そのほかのドキュメントに関してはdotstudioにまとめてあります。  
 [Nefryドキュメント](https://dotstud.io/docs/nefry/)  
