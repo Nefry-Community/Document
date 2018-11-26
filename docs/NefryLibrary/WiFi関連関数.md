@@ -3,7 +3,7 @@
 NefryのWiFi関連の関数をまとめてみました。WiFiに必要な設定などを行うことができます。  
 このページの内容は、Nefryが表示しているWebページでも扱えます。
 
-## addWifi
+## addWiFi
 ![2.3.0](pic/2.3.0.png)  
 ![nefrybt](pic/nefrybt.jpg)
 
@@ -15,9 +15,9 @@ WiFiの設定を追加することができます。5つまでのWiFiを保存�
 |引数1|String|接続したい端末のSSID|
 |引数2|String|接続したい端末のパスワード|
 |返り値|void|なし|
-|具体例||Nefry.addWifi("SSID","Password");|
+|具体例||Nefry.addWiFi("SSID","Password");|
 
-## getlistWifi
+## getlistWiFi
 ![2.3.0](pic/2.3.0.png)  
 ![nefrybt](pic/nefrybt.jpg)
 
@@ -27,10 +27,10 @@ WiFiの設定を表示することができます。IDとSSIDを表示するこ�
 |:---:|:---:|:---:|
 |引数||なし|
 |返り値|String|WiFiの保存情報|
-|具体例||Nefry.println(Nefry.getlistWifi());|
+|具体例||Nefry.println(Nefry.getlistWiFi());|
 
 
-## deleteWifi
+## deleteWiFi
 ![2.3.0](pic/2.3.0.png)  
 ![nefrybt](pic/nefrybt.jpg)
 
@@ -42,7 +42,7 @@ getlistWifi関数でIDについて確認することができます。
 |引数1|int|削除ID|
 |引数2|bool|(指定なしOK)**必ず最後のみ**保存をするかどうか|
 |返り値|void|なし|
-|具体例||Nefry.deleteWifi(1);|
+|具体例||Nefry.deleteWiFi(1);|
 
 ## searchWiFi
 ![2.3.0](pic/2.3.0.png)  
