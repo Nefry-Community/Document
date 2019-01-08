@@ -1,6 +1,28 @@
 ﻿#Nefryでできること
 LIGブログで記事を寄稿しています。
 
+##Nefry BT(ESP-WROOM-32)向け記事
+
+###IFTTTとNefryBTをつないでお手軽IoTしよう！
+![](https://dotstud.io/img/blog/100/00_eyecatch.png)
+[Nefry BTとIFTTTでスイッチを押したらLINEを送る仕組みを作ってみよう](https://dotstud.io/blog/nefry-ifttt-push-line/)
+
+###NefryBTのインタビュー記事
+![](https://techable.jp/wp-content/uploads/2017/06/nefry_1.jpg)  
+[【Interview】電源に挿すだけ!誰でもすぐにIoTの世界へ飛び込める「Nefry BT」に迫る](https://techable.jp/archives/60183)
+
+### NefryBTでのハンズオン資料
+![](https://dotstud.io/img/blog/229/00_eyecatch.png)
+[【ハンズオン資料】NefryBTでハジメテノIoT開発やってみよう！](https://dotstud.io/blog/handson-nefry-ma-kanazawa/)
+
+### NefryBTをJavaScriptでコントロール！
+![](https://dotstud.io/img/blog/145/00_eyecatch.png)
+[JavaScriptで開発できる！Mongoose OSでNefry BTをLチカしよう](https://dotstud.io/blog/mongoose-os-nefry-blink/)
+
+### NefryBTとClova連携（AIスピーカー）
+![](https://dotstud.io/img/blog/185/00_eyecatch.png)
+[ClovaとNefryBT（ESP32）を連携させてみよう](https://dotstud.io/blog/clova-ifttt-nefrybt-arduino/)
+
 ##Nefry(ESP-WROOM-02)向け記事
 
 ###プログラムを書くための環境構築をまとめました！
@@ -32,16 +54,6 @@ English Version : [How to set up your Nefry for the first time](https://dotstud.
 ###Azure IoThubと連携させることができます
 ![](https://qiita-image-store.s3.amazonaws.com/0/97208/95705e6e-e8e8-9f9d-6778-7de63860a01e.jpeg)
 [Azure IoT HubをESP8266で使おう！](http://qiita.com/wamisnet/items/4347b0794f1df51d7b5d)
-
-##Nefry BT(ESP-WROOM-32)向け記事
-
-###IFTTTとNefryBTをつないでお手軽IoTしよう！
-![](https://dotstud.io/img/blog/100/00_eyecatch.png)
-[Nefry BTとIFTTTでスイッチを押したらLINEを送る仕組みを作ってみよう](https://dotstud.io/blog/nefry-ifttt-push-line/)
-
-###NefryBTのインタビュー記事
-![](https://techable.jp/wp-content/uploads/2017/06/nefry_1.jpg)  
-[【Interview】電源に挿すだけ!誰でもすぐにIoTの世界へ飛び込める「Nefry BT」に迫る](https://techable.jp/archives/60183)
 
 
 ##作例
@@ -83,3 +95,11 @@ English Version : [How to set up your Nefry for the first time](https://dotstud.
 ###CocoaBit(Nefryのlittlebits版)とMilkcocoaのfreeboardの組み合わせになります！
 ![](http://www.1ft-seabass.jp/memo/uploads/2016/08/image_20160816_222841_60-644x331.png)  
 [CocoaBitでMilkcocoaのfreeboardでお手軽にグラフ可視化してみるメモ](http://www.1ft-seabass.jp/memo/2016/08/17/cocoabit-milkcocoa-freeboard/)
+
+### enebularとの連携！
+[NefryBTとenebularをFirebaseと連携しよう](https://blog.enebular.com/nefrybt/enebular-meets-nefrybt-with-firebase/)
+
+## ほかのユーザさん
+
+### 工場でNefryBTでセンシング！
+[工場でNefryBTをつかってセンシングをしているユーザさんのサイト](http://www.pamfostercopywriting.com/category/nefrybt/)
